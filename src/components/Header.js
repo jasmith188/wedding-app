@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Header.css';
-// import TypeWriter from "react-typewriter";
 
 const Header = () => {
   const calculateTimeLeft = () => {
@@ -18,7 +17,6 @@ const Header = () => {
   };
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-  const [year] = useState(new Date().getFullYear());
 
   useEffect(() => {
     setTimeout(() => {
