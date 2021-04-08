@@ -1,0 +1,12 @@
+.mainInfo {
+  text-align: center;
+}
+
+.mainInfo__initials {
+  padding-top: 80px;
+}
+
+hr {
+  width: 40%;
+  margin: 18px auto 24px auto;
+}

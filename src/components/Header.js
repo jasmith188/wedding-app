@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    const difference = +new Date(`${year}-11-7`) - +new Date();
+    const difference = +new Date(`${year}-11-6`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
