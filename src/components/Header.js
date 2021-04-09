@@ -9,7 +9,7 @@ const Header = () => {
 
     if (difference > 0) {
       timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        '': Math.floor(difference / (1000 * 60 * 60 * 24)),
       };
     }
 
@@ -55,7 +55,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#about">
+            <a className="smoothscroll specific" href="#about">
               Our Story
             </a>
           </li>
@@ -97,12 +97,12 @@ const Header = () => {
           <h1 className="responsive-headline">
             {/* <TypeWriter className='header__typewriter' typing={0.5}>{name ? `Hello, I'm ${name}` : null}</TypeWriter> */}
             <h1 className="header__nameTitle">Katie and Jimmy's Wedding</h1>
-            {timerComponents.length ? (
+            {/* {timerComponents.length ? (
               timerComponents
             ) : (
               <span>Time's up!</span>
             )}{' '}
-            DAYS TO GO!
+            DAYS TO GO! */}
           </h1>
           <h3>
             NOVEMBER 6, 2021 • WEAVERVILLE, NC
