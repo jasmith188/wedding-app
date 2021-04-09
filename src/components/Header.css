@@ -188,9 +188,7 @@ ul#nav li a {
 ul#nav li a:active {
   background-color: transparent !important;
 }
-ul#nav li a specific {
-  color: white;
-}
+
 ul#nav li.current a {
   color: white;
 }
@@ -204,13 +202,29 @@ ul#nav li.current a {
 @media only screen and (max-width: 660px) {
   .header__nameTitle {
     padding-top: 70px;
+    line-height: 100%
   }
 }
 
 /* mobile narrow */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 422px) {
   .header__nameTitle {
-    padding-top: 160px;
+    padding-top: 170px;
+    line-height: 100%
+  }
+}
+
+
+
+/* iphone 12 mini */
+
+@media only screen and (max-width: 380px) {
+  .header__nameTitle {
+    padding-top: 200px;
+    line-height: 100%
+  }
+  h3 {
+    padding-bottom: 40px;
   }
 }

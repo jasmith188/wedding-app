@@ -55,7 +55,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll specific" href="#about">
+            <a className="smoothscroll specific" href="#ourstory">
               Our Story
             </a>
           </li>
@@ -65,7 +65,7 @@ const Header = () => {
             </a>
           </li> */}
           <li>
-            <a className="smoothscroll" href="#portfolio">
+            <a className="smoothscroll" href="#lodging">
               Lodging Accomodations
             </a>
           </li>

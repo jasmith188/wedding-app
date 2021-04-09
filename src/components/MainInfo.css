@@ -18,3 +18,32 @@ hr {
   margin: 18px auto 24px auto;
   
 }
+
+/* Tablet Size */
+
+@media only screen and (max-width: 660px) {
+    p {
+      padding-top: 70px;
+    }
+  }
+  
+  /* mobile narrow */
+  
+  @media only screen and (max-width: 480px) {
+    p {
+      padding-top: 80px;
+    }
+  }
+  
+  
+  
+  /* iphone 12 mini */
+  
+  @media only screen and (max-width: 330px) {
+    p {
+      padding-top: 20px;
+    }
+    
+  }
+  
+
