@@ -1,49 +1,83 @@
 .mainInfo {
   text-align: center;
   color: white;
+  background-image: url('../images/smoky-mountain.jpg');
+  background-size: cover;
 }
+.mainInfo__nameTitle {
+    color: black !important;
+    font-size: 80px !important;
+    font-family: 'Amatic SC', cursive !important;
+    padding-top: 70px;
+  }
 
 .mainInfo p {
-    color: white;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .mainInfo__initials {
   padding-top: 60px;
-  font-family: cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 4rem;
+}
+
+.mainInfo__date {
+  padding-bottom: 30px;
+}
+.banner__h3 {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
 }
 
 hr {
   width: 40%;
   margin: 18px auto 24px auto;
-  
 }
 
 /* Tablet Size */
 
 @media only screen and (max-width: 660px) {
-    p {
+  p {
+    padding-top: 70px;
+  }
+  .mainInfo__nameTitle {
       padding-top: 70px;
-    }
   }
   
-  /* mobile narrow */
-  
-  @media only screen and (max-width: 480px) {
-    p {
-      padding-top: 80px;
-    }
-  }
-  
-  
-  
-  /* iphone 12 mini */
-  
-  @media only screen and (max-width: 330px) {
-    p {
-      padding-top: 20px;
-    }
+}
+
+/* mobile narrow */
+
+@media only screen and (max-width: 480px) {
+  p {
+    padding-top: 40px;
     
   }
-  
+  h3 {
+      font-size: 1rem !important;
+  }
+  .mainInfo__nameTitle {
+    padding-top: 80px;
+    font-size: 60px !important;
+}
+}
 
+/* iphone 12 mini */
+
+@media only screen and (max-width: 330px) {
+  p {
+    padding-top: 20px;
+  }
+  h3 {
+    font-size: 3rem;
+}
+  .mainInfo__nameTitle {
+    padding-top: 80px;
+    font-size: 40px;
+}
+.mainInfo__date {
+  padding-bottom: 70px !important;
+}
+}

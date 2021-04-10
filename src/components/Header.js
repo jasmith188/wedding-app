@@ -9,7 +9,7 @@ const Header = () => {
 
     if (difference > 0) {
       timeLeft = {
-        '': Math.floor(difference / (1000 * 60 * 60 * 24)),
+        "": Math.floor(difference / (1000 * 60 * 60 * 24)),
       };
     }
 
@@ -55,7 +55,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll specific" href="#ourstory">
+            <a className="smoothscroll" href="#ourStory">
               Our Story
             </a>
           </li>
@@ -94,26 +94,7 @@ const Header = () => {
 
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">
-            {/* <TypeWriter className='header__typewriter' typing={0.5}>{name ? `Hello, I'm ${name}` : null}</TypeWriter> */}
-            <h1 className="header__nameTitle">Katie and Jimmy's Wedding</h1>
-            {/* {timerComponents.length ? (
-              timerComponents
-            ) : (
-              <span>Time's up!</span>
-            )}{' '}
-            DAYS TO GO! */}
-          </h1>
-          <h3>
-            NOVEMBER 6, 2021 • WEAVERVILLE, NC
-            {/* {description} */}
-          </h3>
-          <hr />
-          {/* <ul className="social">
-            <a href="tel:715-219-3199">Katie's Cell</a>
-            <br />
-            <a href="tel:704-909-8461">Jimmy's Cell</a>
-          </ul> */}
+         
         </div>
       </div>
 
