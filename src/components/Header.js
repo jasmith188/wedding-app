@@ -70,22 +70,22 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#testimonials">
+            <a className="smoothscroll" href="#thingsToDo">
               Things to Do
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#contact">
+            <a className="smoothscroll" href="#wedding">
               Wedding Party
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#contact">
+            <a className="smoothscroll" href="#questions">
               Q + A
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#contact">
+            <a className="smoothscroll" href="#registry">
               Registry
             </a>
           </li>

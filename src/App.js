@@ -5,6 +5,8 @@ import Lodging from './components/Lodging';
 import MainInfo from './components/MainInfo';
 import OurStory from './components/OurStory';
 import ThingsToDo from './components/ThingsToDo';
+import WeddingParty from './components/WeddingParty';
+import Questions from './components/Questions';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <OurStory />
       <Lodging />
       <ThingsToDo />
+      <WeddingParty />
+      <Questions />
       <Footer />
     </div>
   );

@@ -4,7 +4,7 @@ import Image2 from '../images/brewery.jpeg';
 
 const ThingsToDo = () => {
   return (
-    <div className="thingsToDo">
+    <div className="thingsToDo" id="thingsToDo">
       <h1>Things To Do In The Area</h1>
       <div>
         <img variant="top" src={Image} alt="airbnb" />
