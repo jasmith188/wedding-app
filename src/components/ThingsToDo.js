@@ -1,14 +1,19 @@
 import React from 'react';
 import Image from '../images/biltmore.jpeg';
 import Image2 from '../images/brewery.jpeg';
-import './ThingsToDo.css'
+import './ThingsToDo.css';
 
 const ThingsToDo = () => {
   return (
     <div className="thingsToDo" id="thingsToDo">
-      <h1>Things To Do In The Area</h1>
+      <h1>Things To Do</h1>
       <div>
-        <img variant="top" src={Image} alt="airbnb" className='thingsToDo__image'/>
+        <img
+          variant="top"
+          src={Image}
+          alt="airbnb"
+          className="thingsToDo__image"
+        />
 
         <h1>BILTMORE</h1>
         <h3>1 LODGE ST, ASHEVILLE, NC 28803, USA (800) 411-3812</h3>
@@ -24,7 +29,12 @@ const ThingsToDo = () => {
         </a>
       </div>
       <div>
-        <img variant="top" src={Image2} alt="airbnb" />
+        <img
+          variant="top"
+          src={Image2}
+          alt="airbnb"
+          className="thingsToDo__image"
+        />
 
         <h1>HIGHLAND BREWING COMPANY</h1>
         <h3>

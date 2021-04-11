@@ -4,19 +4,18 @@ import Image from '../images/hotel.jpeg';
 import Image2 from '../images/airbnb.jpeg';
 import Image3 from '../images/vrbo.jpeg';
 
-
 const Lodging = () => {
   return (
     <div className="lodging" id="lodging">
       <h1>Lodging Accomodations </h1>
       <div>
-        <img variant="top" src={Image} alt="hotel" className='lodging__image'/>
+        <img variant="top" src={Image} alt="hotel" className="lodging__image" />
 
         <h3>
-                  25 FAIRFIELD APPROACH DR, WEAVERVILLE, NC 28787, USA (828) 645-9000
+          25 FAIRFIELD APPROACH DR, WEAVERVILLE, NC 28787, USA (828) 645-9000
         </h3>
-              <br />
-              <br/>
+        <br />
+        <br />
         <p>
           <strong>Check-In</strong>: Friday, November 5, 2021 |{' '}
           <strong>Check-Out</strong>: Sunday, November 7, 2021
@@ -35,7 +34,12 @@ const Lodging = () => {
       </div>
       <br />
       <div>
-        <img variant="top" src={Image2} alt="airbnb" />
+        <img
+          variant="top"
+          src={Image2}
+          alt="airbnb"
+          className="lodging__image"
+        />
 
         <p>AIRBNB</p>
         <p>
@@ -49,7 +53,7 @@ const Lodging = () => {
       </div>
       <br />
       <div>
-        <img variant="top" src={Image3} alt="vrbo" />
+        <img variant="top" src={Image3} alt="vrbo" className="lodging__image" />
 
         <p>
           There are plenty of Vrbo options near Emerald Ridge Farm -
