@@ -1,14 +1,20 @@
 header {
-  position: relative;
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s;
   height: 1px;
-  min-height: 1px;
+  min-height: 100px;
   width: 100%;
-  background-color: black ;
+  background-color: black;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
-  overflow: hidden;
+  background-color: transparent !important;
+  /* overflow: hidden; */
 }
+
 
 /* vertically center banner section */
 header:before {

@@ -1,16 +1,17 @@
 import React from 'react';
 import Image from '../images/biltmore.jpeg';
 import Image2 from '../images/brewery.jpeg';
+import './ThingsToDo.css'
 
 const ThingsToDo = () => {
   return (
     <div className="thingsToDo" id="thingsToDo">
       <h1>Things To Do In The Area</h1>
       <div>
-        <img variant="top" src={Image} alt="airbnb" />
+        <img variant="top" src={Image} alt="airbnb" className='thingsToDo__image'/>
 
-        <p>BILTMORE</p>
-        <p>1 LODGE ST, ASHEVILLE, NC 28803, USA (800) 411-3812</p>
+        <h1>BILTMORE</h1>
+        <h3>1 LODGE ST, ASHEVILLE, NC 28803, USA (800) 411-3812</h3>
         <p>
           Biltmore Estate in Asheville, N.C. George Vanderbilt's 250-room castle
           is America's Largest Home and a top attraction in Asheville. Plan a
@@ -25,10 +26,10 @@ const ThingsToDo = () => {
       <div>
         <img variant="top" src={Image2} alt="airbnb" />
 
-        <p>HIGHLAND BREWING COMPANY</p>
-        <p>
+        <h1>HIGHLAND BREWING COMPANY</h1>
+        <h3>
           12 OLD CHARLOTTE HWY #200, ASHEVILLE, NC 28803, USA (828) 299-3370
-        </p>
+        </h3>
         <p>
           One of Jimmy's favorite beers is brewed here! - Cold Mountain Winter
           Ale (seasonal) - Also try Gaelic Ale

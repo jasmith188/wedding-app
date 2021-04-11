@@ -1,9 +1,13 @@
 import React from 'react';
+import './Questions.css'
 
 const Qestions = () => {
   return (
     <div className="questions" id="questions">
-      <h1>WHAT ABOUT COVID?</h1>
+      <h1>Questions and Answers</h1>
+      <strong>
+        <h3>WHAT ABOUT COVID?</h3>
+      </strong>
       <p>
         Emerald Ridge Farm is a 33 acre property that we have for the entire
         weekend. There is plenty of space to spread out and the buildings are
@@ -13,14 +17,18 @@ const Qestions = () => {
         celebrating, but understand if there are reservations.
       </p>
       <br />
-      <h1>WHAT AIRPORT SHOULD I FLY INTO?</h1>
+      <strong>
+        <h3>WHAT AIRPORT SHOULD I FLY INTO?</h3>
+      </strong>
       <p>
         There are a few options: 1. Asheville (AVL) - 11 miles from downtown 2.
         Greenville/Spartanburg (GSP) - 53 miles from downtown 3. Knoxville (TYS)
         - 82 miles from downtown 4. Charlotte (CLT) - 95 miles from downtown
       </p>
       <br />
-      <h1>WHAT IS THE ATTIRE?</h1>
+      <strong>
+        <h3>WHAT IS THE ATTIRE?</h3>
+      </strong>
       <p>
         Semi-formal - suggested to bring a light jacket or sweater as the
         temperature may drop at night.

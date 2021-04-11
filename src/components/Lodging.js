@@ -10,11 +10,13 @@ const Lodging = () => {
     <div className="lodging" id="lodging">
       <h1>Lodging Accomodations </h1>
       <div>
-        <img variant="top" src={Image} alt="hotel" />
+        <img variant="top" src={Image} alt="hotel" className='lodging__image'/>
 
-        <p>
-          25 FAIRFIELD APPROACH DR, WEAVERVILLE, NC 28787, USA (828) 645-9000
-        </p>
+        <h3>
+                  25 FAIRFIELD APPROACH DR, WEAVERVILLE, NC 28787, USA (828) 645-9000
+        </h3>
+              <br />
+              <br/>
         <p>
           <strong>Check-In</strong>: Friday, November 5, 2021 |{' '}
           <strong>Check-Out</strong>: Sunday, November 7, 2021

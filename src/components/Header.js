@@ -2,44 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Header.css';
 
 const Header = () => {
-  const calculateTimeLeft = () => {
-    let year = new Date().getFullYear();
-    const difference = +new Date(`${year}-11-6`) - +new Date();
-    let timeLeft = {};
-
-    if (difference > 0) {
-      timeLeft = {
-        "": Math.floor(difference / (1000 * 60 * 60 * 24)),
-      };
-    }
-
-    return timeLeft;
-  };
-
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
-  useEffect(() => {
-    setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
-  });
-
-  const timerComponents = [];
-
-  Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
-      return;
-    }
-
-    timerComponents.push(
-      <span>
-        {timeLeft[interval]} {interval}{' '}
-      </span>
-    );
-  });
-
   return (
-    <header id="home">
+    <header id="home" className="header-fixed">
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
@@ -93,9 +57,7 @@ const Header = () => {
       </nav>
 
       <div className="row banner">
-        <div className="banner-text">
-         
-        </div>
+        <div className="banner-text"></div>
       </div>
 
       <p className="scrolldown">

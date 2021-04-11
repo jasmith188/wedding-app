@@ -14,58 +14,58 @@ import Image12 from '../weddingImages/ringpic.jpeg';
 import Image13 from '../weddingImages/stpattys.jpeg';
 import Image14 from '../weddingImages/weddingpic.jpeg';
 import './OurStory.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const OurStory = () => {
   return (
     <div className="ourStory" id="ourStory">
+      <Carousel>
+        <div>
+          <img src={Image1} alt="katieandjimmypic" />
+        </div>
+        <div>
+          <img src={Image2} alt="katieandjimmypic" />
+        </div>
+
+        <div>
+          <img src={Image4} alt="katieandjimmypic" />
+        </div>
+
+        <div>
+          <img src={Image6} alt="katieandjimmypic" />
+        </div>
+        <div>
+          <img src={Image7} alt="katieandjimmypic" />
+        </div>
+        <div>
+          <img src={Image8} alt="katieandjimmypic" />
+        </div>
+        <div>
+          <img src={Image9} alt="katieandjimmypic" />
+        </div>
+        <div>
+          <img src={Image10} alt="katieandjimmypic" />
+        </div>
+        <div>
+          <img src={Image11} alt="katieandjimmypic" />
+        </div>
+        <div>
+          <img src={Image12} alt="katieandjimmypic" />
+        </div>
+        <div>
+          <img src={Image13} alt="katieandjimmypic" />
+        </div>
+        <div>
+          <img src={Image14} alt="katieandjimmypic" />
+        </div>
+      </Carousel>
       <h1>Our Story</h1>
       <p>
         Jimmy and Katie met in 2013 while working aboard the Pride of America in
         Hawai'i. Their first 'official' date was snorkeling at Hanuma Bay on the
         big island of O'ahu - it was forever after that.
       </p>
-      <div>
-        <img className="ourStory__image"  src={Image1} alt="" />
-      </div>
-      <div>
-        <img className="ourStory__image" src={Image2} alt="" />
-      </div>
-      {/* <div>
-        <img className="ourStory__image" src={Image3} alt="" />
-      </div> */}
-      <div>
-        <img className="ourStory__image" src={Image4} alt="" />
-      </div>
-      {/* <div>
-        <img className="ourStory__image" src={Image5} alt="" />
-      </div> */}
-      <div>
-        <img className="ourStory__image" src={Image6} alt="" />
-      </div>
-      <div>
-        <img className="ourStory__image" src={Image7} alt="" />
-      </div>
-      <div>
-        <img className="ourStory__image" src={Image8} alt="" />
-      </div>
-      <div>
-        <img className="ourStory__image" src={Image9} alt="" />
-      </div>
-      <div>
-        <img className="ourStory__image" src={Image10} alt="" />
-      </div>
-      <div>
-        <img className="ourStory__image" src={Image11} alt="" />
-      </div>
-      <div>
-        <img className="ourStory__image" src={Image12} alt="" />
-      </div>
-      <div>
-        <img className="ourStory__image" src={Image13} alt="" />
-      </div>
-      <div>
-        <img className="ourStory__image" src={Image14} alt="" />
-      </div>
     </div>
   );
 };

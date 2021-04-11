@@ -1,8 +1,12 @@
 import React from 'react';
+import './WeddingParty.css'
 
 const WeddingParty = () => {
   return (
-    <div className="weddingParty" id="wedding">
+      <div className="weddingParty" id="wedding">
+          <h1>Wedding Party</h1>
+          <br />
+          <br/>
       <h1>Bride's Side</h1>
       <div className="weddingParty__card">
         <img

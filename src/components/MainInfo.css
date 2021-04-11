@@ -5,15 +5,17 @@
   background-size: cover;
 }
 .mainInfo__nameTitle {
-    color: black !important;
-    font-size: 80px !important;
-    font-family: 'Amatic SC', cursive !important;
-    padding-top: 70px;
-  }
+  color: black !important;
+  font-size: 80px !important;
+  font-family: 'Great Vibes', cursive;
+  padding-top: 150px;
+  color: white !important;
+}
 
 .mainInfo p {
   color: white;
   font-family: 'Montserrat', sans-serif;
+  padding: 50px 0 50px 0;
 }
 
 .mainInfo__initials {
@@ -26,7 +28,7 @@
   padding-bottom: 30px;
 }
 .banner__h3 {
-  padding-top: 30px;
+  padding-top: 90px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
 }
@@ -43,9 +45,8 @@ hr {
     padding-top: 70px;
   }
   .mainInfo__nameTitle {
-      padding-top: 70px;
+    padding-top: 70px;
   }
-  
 }
 
 /* mobile narrow */
@@ -53,15 +54,14 @@ hr {
 @media only screen and (max-width: 480px) {
   p {
     padding-top: 40px;
-    
   }
   h3 {
-      font-size: 1rem !important;
+    font-size: 1rem !important;
   }
   .mainInfo__nameTitle {
     padding-top: 80px;
     font-size: 60px !important;
-}
+  }
 }
 
 /* iphone 12 mini */
@@ -72,12 +72,12 @@ hr {
   }
   h3 {
     font-size: 3rem;
-}
+  }
   .mainInfo__nameTitle {
     padding-top: 80px;
     font-size: 40px;
-}
-.mainInfo__date {
-  padding-bottom: 70px !important;
-}
+  }
+  .mainInfo__date {
+    padding-bottom: 70px !important;
+  }
 }
