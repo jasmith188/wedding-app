@@ -8,13 +8,23 @@ import ThingsToDo from './components/ThingsToDo';
 import WeddingParty from './components/WeddingParty';
 import Questions from './components/Questions';
 import RSVP from './components/RSVP';
+import { useEffect, useState } from 'react';
 
-function App() {
+const App = () => {
+  const [weddingData, setWeddingData] = useState({});
+
+  useEffect(() => {
+    fetch('/weddingData.json')
+      .then((res) => res.json())
+      .then((data) => {
+        setWeddingData(data);
+      });
+  }, []);
   return (
     <div className="app">
       <Header />
       <MainInfo />
-      <RSVP />
+      <RSVP data={weddingData.rsvp} />
       <OurStory />
       <Lodging />
       <ThingsToDo />
@@ -23,6 +33,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
