@@ -1,0 +1,266 @@
+#rsvp {
+  background: lightgray;
+  padding-top: 96px;
+  padding-bottom: 102px;
+  color: #636363;
+}
+#rsvp .section-head {
+  margin-bottom: 42px;
+}
+
+#rsvp a,
+#rsvp a:visited {
+  color: orange;
+}
+#rsvp a:hover,
+#rsvp a:focus {
+  color: #fff;
+}
+
+#rsvp h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: black;
+  margin-bottom: 6px;
+}
+#rsvp h1 span {
+  display: none;
+}
+#rsvp h1:before {
+  font-family: 'FontAwesome';
+  content: '\f0e0';
+  padding-right: 10px;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: left;
+  float: left;
+  color: black;
+}
+
+#rsvp h4 {
+  font: 16px/24px 'opensans-bold', sans-serif;
+  color: black;
+  margin-bottom: 6px;
+}
+#rsvp p.lead {
+  font: 18px/36px 'opensans-light', sans-serif;
+  padding-right: 3%;
+}
+#rsvp .header-col {
+  padding-top: 6px;
+}
+
+/* rsvp form */
+#rsvp form {
+  margin-bottom: 30px;
+}
+#rsvp label {
+  font: 15px/24px 'opensans-bold', sans-serif;
+  margin: 12px 0;
+  color: black;
+  display: inline-block;
+  float: left;
+  width: 26%;
+}
+#rsvp input,
+#rsvp textarea,
+#rsvp select {
+  padding: 18px 20px;
+  color: #eee;
+  background: #373233;
+  margin-bottom: 42px;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  line-height: 24px;
+  width: 65%;
+}
+#rsvp input:focus,
+#rsvp textarea:focus,
+#rsvp select:focus {
+  color: #fff;
+  background-color: orange;
+}
+#rsvp button.submit {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  background: #0d0d0d;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 26%;
+}
+#rsvp button.submit:hover {
+  color: #0d0d0d;
+  background: #fff;
+}
+#rsvp span.required {
+  color: orange;
+  font-size: 13px;
+}
+#message-warning,
+#message-success {
+  display: none;
+  background: #0f0f0f;
+  padding: 24px 24px;
+  margin-bottom: 36px;
+  width: 65%;
+  margin-left: 26%;
+}
+#message-warning {
+  color: #d72828;
+}
+#message-success {
+  color: orange;
+}
+
+#message-warning i,
+#message-success i {
+  margin-right: 10px;
+}
+#image-loader {
+  display: none;
+  position: relative;
+  left: 18px;
+  top: 17px;
+}
+
+/* Twitter Feed */
+#twitter {
+  margin-top: 12px;
+  padding: 0;
+}
+#twitter li {
+  margin: 6px 0px 12px 0;
+  line-height: 30px;
+}
+#twitter li span {
+  display: block;
+}
+#twitter li b a {
+  font: 13px/36px 'opensans-regular', Sans-serif;
+  color: #474747 !important;
+  border: none;
+}
+
+#message-warning,
+#message-success {
+  display: none;
+  background: #0f0f0f;
+  padding: 24px 24px;
+  margin-bottom: 36px;
+  width: 65%;
+  margin-left: 26%;
+}
+#message-warning {
+  color: #d72828;
+}
+#message-success {
+  color: orange;
+}
+
+#message-warning i,
+#message-success i {
+  margin-right: 10px;
+}
+
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+  #rsvp .section-head {
+    margin-bottom: 30px;
+  }
+  #rsvp .header-col h1:before {
+    font-size: 66px;
+    line-height: 66px;
+  }
+  #rsvp .section-head p.lead {
+    font: 17px/33px opensans-light, sans-serif;
+  }
+}
+
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+  #rsvp {
+    padding-bottom: 66px;
+  }
+  #rsvp .section-head {
+    margin-bottom: 12px;
+  }
+  #rsvp .section-head h1 {
+    font: 16px/24px 'opensans-bold', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+  }
+  #rsvp h1 span {
+    display: block;
+  }
+  #rsvp .header-col {
+    padding-top: 0;
+  }
+  #rsvp .header-col h1:before {
+    content: none;
+  }
+  #rsvp .section-head p.lead {
+    text-align: center;
+  }
+
+  /* form */
+  #rsvp label {
+    float: none;
+    width: 100%;
+  }
+  #rsvp input,
+  #rsvp textarea,
+  #rsvp select {
+    margin-bottom: 6px;
+    width: auto;
+  }
+  #rsvp button.submit {
+    margin: 30px 0 24px 0;
+  }
+  #message-warning,
+  #message-success {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* mobile narrow
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+  rsvp .banner {
+    padding-top: 24px;
+  }
+  .rsvp .banner-text h1 {
+    font: 40px/1.1em 'opensans-bold', sans-serif;
+    margin: 0 auto 24px auto;
+    padding-top: 80px;
+  }
+  .rsvp .banner-text h3 {
+    font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+    width: 90%;
+  }
+
+  .rsvp__nameTitle {
+    color: orange !important;
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+
+  /* rsvp social links */
+  .rsvp .social {
+    font-size: 20px;
+  }
+  .rsvp .social li {
+    margin: 0 6px;
+  }
+}

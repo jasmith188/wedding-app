@@ -7,12 +7,14 @@ import OurStory from './components/OurStory';
 import ThingsToDo from './components/ThingsToDo';
 import WeddingParty from './components/WeddingParty';
 import Questions from './components/Questions';
+import RSVP from './components/RSVP';
 
 function App() {
   return (
     <div className="app">
       <Header />
       <MainInfo />
+      <RSVP />
       <OurStory />
       <Lodging />
       <ThingsToDo />

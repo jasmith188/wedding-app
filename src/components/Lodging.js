@@ -28,7 +28,7 @@ const Lodging = () => {
           Ridge Farms property
         </p>
         <p>- must book room by 10/5</p>
-        <a href="https://www.marriott.com/hotels/travel/avlfw-fairfield-inn-and-suites-asheville-weaverville/">
+        <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1617900603438&key=GRP&app=resvlink">
           <button>Link to Website</button>
         </a>
       </div>
