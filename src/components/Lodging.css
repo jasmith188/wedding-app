@@ -25,4 +25,8 @@ h1 {
     .lodging__image {
         width: 350px;
     }
+
+    .lodging h1 {
+        font-size: 32px;
+    }
 }

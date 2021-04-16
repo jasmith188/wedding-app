@@ -1,17 +1,17 @@
 header {
-  background-color: #333; /* Black background color */
+  background-color: lightgray; /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
   transition: top 0.3s;
-  height: 1px;
-  min-height: 100px;
+  height: 60px;
+  min-height: 60px;
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
   /* overflow: hidden; */
 }
 
@@ -218,6 +218,11 @@ ul#nav li a:active {
 @media only screen and (max-width: 767px) {
   /* mobile navigation
    -------------------------------------------------------------------- */
+   header {
+    background-color: transparent!important;
+   }
+
+
   #nav-wrap {
     font: 12px 'opensans-bold', sans-serif;
     background: transparent !important;
@@ -228,15 +233,13 @@ ul#nav li a:active {
     right: 0;
   }
   #nav-wrap > a {
-    width: 48px;
-    height: 48px;
+    width: 28px;
+    height: 28px;
     text-align: left;
-    background-color: transparent;
     position: relative;
-    border: solid white 2px;
+    border: solid white 1px;
     float: right;
-    margin-top: 19px;
-
+    margin-top: 15px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;

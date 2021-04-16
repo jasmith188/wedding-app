@@ -8,30 +8,49 @@
   font-size: 2rem;
   font-family: 'Open Sans', sans-serif;
 }
-.ourStory__image {
-  padding: 40px 40px 40px 40px;
+.ourStory__carousel {
+  padding: 50px 190px 10px 190px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+  /* border-spacing: 20px; */
+}
+
+.ourStory__image {
+  margin-left: auto;
+  margin-right: auto;
   width: auto;
-  height: 500px;
-  border-spacing: 20px;
+  height: auto;
+  display: block;
+}
+.slide .selected {
+  height: 400px;
 }
 
 /* Tablet Size */
 
 @media only screen and (max-width: 660px) {
-p {
-    font-size: 1.5rem !important;
+.ourStory p{
+  font-size: 20px !important;
     /* padding: 0 20px 0 20px !important; */
     padding-left: 30px !important;
     padding-right: 30px !important;
 }
 
+
+  p {
+    
+  }
+
   .ourStory__image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 300px !important;
+    /* height: 300px !important; */
   }
+  .ourStory__carousel {
+    padding: 50px 60px 90px 60px !important;
+  }
+
 }

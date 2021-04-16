@@ -1,151 +1,67 @@
-#rsvp {
-  background: lightgray;
-  padding-top: 96px;
-  padding-bottom: 102px;
+.rsvp {
+  background: tan;
+  /* padding-top: 26px;
+  padding-bottom: 22px;
   color: #636363;
-}
-#rsvp .section-head {
-  margin-bottom: 42px;
-}
-
-#rsvp a,
-#rsvp a:visited {
-  color: orange;
-}
-#rsvp a:hover,
-#rsvp a:focus {
-  color: #fff;
-}
-
-#rsvp h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: black;
-  margin-bottom: 6px;
-}
-#rsvp h1 span {
-  display: none;
-}
-#rsvp h1:before {
-  font-family: 'FontAwesome';
-  content: '\f0e0';
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
+  text-align: center; */
   text-align: left;
-  float: left;
-  color: black;
+  padding: 1em;
+  margin: 1em;
+  border: 2px solid #d3d3d3;
+  border-radius: 0.5em;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
 }
 
-#rsvp h4 {
-  font: 16px/24px 'opensans-bold', sans-serif;
-  color: black;
-  margin-bottom: 6px;
-}
-#rsvp p.lead {
-  font: 18px/36px 'opensans-light', sans-serif;
-  padding-right: 3%;
-}
-#rsvp .header-col {
-  padding-top: 6px;
+.rsvp__container {
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  height: 400px;
+  padding: 50px;
 }
 
 /* rsvp form */
-#rsvp form {
-  margin-bottom: 30px;
+
+h1 {
+  font-size: 48px;
+  /* padding-bottom: 2rem; */
 }
-#rsvp label {
-  font: 15px/24px 'opensans-bold', sans-serif;
-  margin: 12px 0;
+
+.rsvp__label {
+  display: flex;
   color: black;
-  display: inline-block;
-  float: left;
-  width: 26%;
+  padding-bottom: 2rem;
+  font-size: 16px;
+  padding-right: 6px;
 }
-#rsvp input,
-#rsvp textarea,
-#rsvp select {
-  padding: 18px 20px;
-  color: #eee;
-  background: #373233;
-  margin-bottom: 42px;
-  border: 0;
-  outline: none;
-  font-size: 15px;
-  line-height: 24px;
-  width: 65%;
+.rsvp input,
+.rsvp textarea,
+.rsvp select {
+  /* padding: 18px 20px; */
+  /* color: #eee; */
+  /* background: #373233; */
+  /* margin-top: 30px; */
+  /* border: 0; */
+  /* outline: none; */
+  /* font-size: 15px; */
+  /* line-height: 24px; */
+  /* width: 65%; */
+  margin-left: 1rem;
+  font-size: 16px;
 }
-#rsvp input:focus,
-#rsvp textarea:focus,
-#rsvp select:focus {
-  color: #fff;
-  background-color: orange;
+.rsvp input:focus,
+.rsvp textarea:focus,
+.rsvp select:focus {
+  color: black;
 }
-#rsvp button.submit {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-  background: #0d0d0d;
-  border: none;
-  cursor: pointer;
-  height: auto;
-  display: inline-block;
-  border-radius: 3px;
-  margin-left: 26%;
-}
-#rsvp button.submit:hover {
-  color: #0d0d0d;
-  background: #fff;
-}
-#rsvp span.required {
-  color: orange;
-  font-size: 13px;
-}
-#message-warning,
-#message-success {
-  display: none;
-  background: #0f0f0f;
-  padding: 24px 24px;
-  margin-bottom: 36px;
-  width: 65%;
-  margin-left: 26%;
-}
-#message-warning {
-  color: #d72828;
-}
-#message-success {
-  color: orange;
+.rsvp__button {
+  font-size: 20px;
 }
 
-#message-warning i,
-#message-success i {
-  margin-right: 10px;
-}
-#image-loader {
-  display: none;
-  position: relative;
-  left: 18px;
-  top: 17px;
-}
-
-/* Twitter Feed */
-#twitter {
-  margin-top: 12px;
-  padding: 0;
-}
-#twitter li {
-  margin: 6px 0px 12px 0;
-  line-height: 30px;
-}
-#twitter li span {
-  display: block;
-}
-#twitter li b a {
-  font: 13px/36px 'opensans-regular', Sans-serif;
-  color: #474747 !important;
-  border: none;
-}
+/* Message Warning */
 
 #message-warning,
 #message-success {
@@ -159,9 +75,7 @@
 #message-warning {
   color: #d72828;
 }
-#message-success {
-  color: orange;
-}
+
 
 #message-warning i,
 #message-success i {
@@ -171,14 +85,22 @@
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
-  #rsvp .section-head {
+  .rsvp {
+    width: 500px !important;
+  }
+
+  .rsvp__label {
+    font-size: 16px !important;
+  }
+
+  .rsvp .section-head {
     margin-bottom: 30px;
   }
-  #rsvp .header-col h1:before {
+  .rsvp .header-col h1:before {
     font-size: 66px;
     line-height: 66px;
   }
-  #rsvp .section-head p.lead {
+  .rsvp .section-head p.lead {
     font: 17px/33px opensans-light, sans-serif;
   }
 }
@@ -187,45 +109,45 @@
 ---------------------------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
-  #rsvp {
+  .rsvp {
     padding-bottom: 66px;
+    width: 400px !important;
   }
-  #rsvp .section-head {
+
+  .rsvp .section-head {
     margin-bottom: 12px;
   }
-  #rsvp .section-head h1 {
+  .rsvp .section-head h1 {
     font: 16px/24px 'opensans-bold', sans-serif;
     text-align: center;
     margin-bottom: 30px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
   }
-  #rsvp h1 span {
+  .rsvp h1 span {
     display: block;
   }
-  #rsvp .header-col {
+  .rsvp .header-col {
     padding-top: 0;
   }
-  #rsvp .header-col h1:before {
+  .rsvp .header-col h1:before {
     content: none;
   }
-  #rsvp .section-head p.lead {
+  .rsvp .section-head p.lead {
     text-align: center;
   }
 
   /* form */
-  #rsvp label {
+  .rsvp label {
     float: none;
     width: 100%;
   }
-  #rsvp input,
-  #rsvp textarea,
-  #rsvp select {
+  .rsvp input,
+  .rsvp textarea,
+  .rsvp select {
     margin-bottom: 6px;
     width: 90%;
   }
-  #rsvp button.submit {
-    margin: 30px 0 24px 0;
-  }
+ 
   #message-warning,
   #message-success {
     width: 100%;
@@ -237,8 +159,11 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
-  rsvp .banner {
-    padding-top: 24px;
+  .rsvp {
+    width: 300px !important;
+  }
+  .rsvp__label {
+    font-size: 14px !important;
   }
   .rsvp .banner-text h1 {
     font: 40px/1.1em 'opensans-bold', sans-serif;
