@@ -1,32 +1,44 @@
 .lodging {
-    text-align: center;
+  text-align: center;
+  padding: 0 100px 0 100px;
 }
 
 .lodging__image {
-    padding: 60px 0 60px 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
+  padding: 60px 0 60px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.lodging__bookingImage {
+  padding: 60px 0 60px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
 }
 
-h1 {
-    padding: 30px 0 30px 0;
+.lodging > h1 {
+  padding: 140px 0 30px 0;
+  font-size: 54px;
 }
 
 .lodging p {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
+.lodging__button {
+  font-size: 18px;
+}
 
 /* Tablet Size */
 
 @media only screen and (max-width: 660px) {
-    .lodging__image {
-        width: 350px;
-    }
+  .lodging__image {
+    width: 350px;
+  }
 
-    .lodging h1 {
-        font-size: 32px;
-    }
+  .lodging h1 {
+    font-size: 32px;
+  }
 }

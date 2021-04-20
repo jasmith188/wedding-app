@@ -5,7 +5,7 @@ header {
   width: 100%; /* Full width */
   transition: top 0.3s;
   height: 60px;
-  min-height: 60px;
+  min-height: 90px;
   width: 100%;
   /* background-color: black; */
   background-size: cover !important;
@@ -15,39 +15,6 @@ header {
   /* overflow: hidden; */
 }
 
-
-/* vertically center banner section */
-header:before {
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-}
-header .banner {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 auto;
-  width: 85%;
-  padding-bottom: 30px;
-  text-align: center;
-}
-
-header .banner-text {
-  width: 100%;
-}
-header .banner-text h1 {
-  font: 90px/1.1em;
-  font-family: 'Righteous', cursive !;
-  color: black;
-  /* letter-spacing: -2px; */
-  margin: 0 auto 18px auto;
-  padding-bottom: 20px;
-}
-
-/* .header__typewriter {
-    line-height: 100px;
-  } */
-
 .header__nameTitle {
   color: black !important;
   font-size: 50px !important;
@@ -56,55 +23,6 @@ header .banner-text h1 {
 
 .h3 {
   font-family: 'Open Sans', sans-serif !important;
-}
-
-header .banner-text h3 {
-  font: 18px/1.9em;
-  font-family: 'Open Sans', sans-serif !important;
-  font-size: 20px !important;
-  font-weight: 9000;
-  color: white;
-  margin: 0 auto;
-  width: 70%;
-}
-header .banner-text h3 span,
-header .banner-text h3 a {
-  font-style: unset;
-  color: black;
-  font-weight: bolder;
-}
-header .banner-text hr {
-  width: 60%;
-  margin: 18px auto 24px auto;
-  border-color: #2f2d2e;
-  border-color: rgba(150, 150, 150, 0.1);
-}
-
-/* header social links */
-header .social {
-  margin: 24px 0;
-  padding: 0;
-  font-size: 30px;
-}
-header .social li {
-  display: inline-block;
-  margin: 0 15px;
-  padding: 0;
-}
-header .social li a {
-  color: white;
-}
-header .social li a:hover {
-  color: white;
-}
-.fa-linkedin {
-  color: rgb(80, 80, 160);
-}
-.fa-instagram {
-  color: rgb(173, 76, 76);
-}
-.fa-github {
-  color: white;
 }
 
 /* scrolldown link */
@@ -218,10 +136,9 @@ ul#nav li a:active {
 @media only screen and (max-width: 767px) {
   /* mobile navigation
    -------------------------------------------------------------------- */
-   header {
-    background-color: transparent!important;
-   }
-
+  header {
+    background-color: transparent !important;
+  }
 
   #nav-wrap {
     font: 12px 'opensans-bold', sans-serif;

@@ -16,14 +16,16 @@ const ThingsToDo = () => {
         />
 
         <h1>BILTMORE</h1>
+        <br />
         <h3>1 LODGE ST, ASHEVILLE, NC 28803, USA (800) 411-3812</h3>
+        <br />
         <p>
           Biltmore Estate in Asheville, N.C. George Vanderbilt's 250-room castle
           is America's Largest Home and a top attraction in Asheville. Plan a
           visit to Biltmore House, explore 8,000 acres of grounds, or book a
           behind-the-scenes tour.
         </p>
-
+        <br />
         <a href="https://www.biltmore.com/">
           <button>Link to Website</button>
         </a>
@@ -37,13 +39,16 @@ const ThingsToDo = () => {
         />
 
         <h1>HIGHLAND BREWING COMPANY</h1>
+        <br/>
         <h3>
           12 OLD CHARLOTTE HWY #200, ASHEVILLE, NC 28803, USA (828) 299-3370
         </h3>
+        <br/>
         <p>
           One of Jimmy's favorite beers is brewed here! - Cold Mountain Winter
           Ale (seasonal) - Also try Gaelic Ale
         </p>
+        <br/>
         <a href="https://highlandbrewing.com/">
           <button>Link to Website</button>
         </a>

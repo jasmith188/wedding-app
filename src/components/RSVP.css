@@ -25,9 +25,9 @@
 
 /* rsvp form */
 
-h1 {
-  font-size: 48px;
-  /* padding-bottom: 2rem; */
+.rsvp__container > h1 {
+  font-size: 58px ;
+  padding-bottom: 2rem;
 }
 
 .rsvp__label {

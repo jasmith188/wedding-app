@@ -1,8 +1,8 @@
 import React from 'react';
 import './Lodging.css';
 import Image from '../images/hotel.jpeg';
-import Image2 from '../images/airbnb.jpeg';
-import Image3 from '../images/vrbo.jpeg';
+import airBnB from '../images/airbnb.jpeg';
+import vRbo from '../images/vrbo.jpeg';
 
 const Lodging = () => {
   return (
@@ -29,16 +29,18 @@ const Lodging = () => {
         </p>
         <p>- must book room by 10/5</p>
         <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1617900603438&key=GRP&app=resvlink">
-          <button>Link to Website</button>
+          <button className="lodging__button">
+            Link to 'Katie and Jimmy's Hotel Block'
+          </button>
         </a>
       </div>
       <br />
       <div>
         <img
           variant="top"
-          src={Image2}
+          src={airBnB}
           alt="airbnb"
-          className="lodging__image"
+          className="lodging__bookingImage"
         />
 
         <p>AIRBNB</p>
@@ -53,7 +55,7 @@ const Lodging = () => {
       </div>
       <br />
       <div>
-        <img variant="top" src={Image3} alt="vrbo" className="lodging__image" />
+        <img variant="top" src={vRbo} alt="vrbo" className="lodging__bookingImage" />
 
         <p>
           There are plenty of Vrbo options near Emerald Ridge Farm -
@@ -64,6 +66,7 @@ const Lodging = () => {
           <button>Link to Website</button>
         </a>
       </div>
+     
     </div>
   );
 };

@@ -10,7 +10,7 @@ const RSVP = () => {
   return (
     <div className="rsvp" id="rsvp">
       <div className="rsvp__container">
-        <h1>RSVP</h1>
+        <h1><u>RSVP</u></h1>
         <form className="rsvp__form" onSubmit={handleSubmit}>
           <label className="rsvp__label">
             Name of Guest(s):

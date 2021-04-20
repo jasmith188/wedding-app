@@ -38,7 +38,7 @@ const MainInfo = () => {
     );
   });
   return (
-    <div className="mainInfo">
+    <div className="mainInfo" id='home'>
       <h1 className="mainInfo__nameTitle">Katie and Jimmy</h1>
       {timerComponents.length ? timerComponents : <span>Time's up!</span>} DAYS
       TO GO!

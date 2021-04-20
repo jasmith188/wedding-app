@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header id="home" className="header-fixed">
+    <header className="header-fixed">
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
