@@ -78,8 +78,8 @@ const RSVP = () => {
         <p>5:00 PM</p>
         <br />
         <h2>Ceremony & Reception</h2>
-        <p>Chapel of Our Saviour</p>
-        <p>8 4th St, Colorado Springs, CO 80906</p>
+        <p>Emerald Ridge Farm</p>
+        <p>161 Green Ridge Road, Weaverville, NC, 28787</p>
         <p className="line">________________________________________</p>
         <label className="rsvp__label">
           <pre>Name of Guest(s): </pre>
