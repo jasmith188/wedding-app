@@ -59,6 +59,7 @@ const MainInfo = () => {
         <br />
         We look forward to having you with us to celebrate our new adventure!
       </p>
+      
     </div>
   );
 };
