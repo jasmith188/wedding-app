@@ -1,11 +1,11 @@
 header {
-  background-color: lightgray; /* Black background color */
+  background-color: white; /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
   transition: top 0.3s;
-  height: 60px;
-  min-height: 90px;
+  height: 90px;
+  min-height: 100px;
   width: 100%;
   /* background-color: black; */
   background-size: cover !important;
@@ -18,7 +18,7 @@ header {
 .header__nameTitle {
   color: black !important;
   font-size: 50px !important;
-  font-family: 'Amatic SC', cursive !important;
+  font-family: 'Great Vibes', cursive;
 }
 
 .h3 {
@@ -62,19 +62,17 @@ header .scrolldown a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-  font: 12px 'opensans-bold', sans-serif;
+  font: 20px 'opensans-bold', sans-serif;
   width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
+  text-transform: lowercase;
+  letter-spacing: 1.5px;
   margin: 0 auto;
   z-index: 100;
   position: fixed;
   left: 0;
   top: 0;
 }
-.opaque {
-  background-color: #333;
-}
+
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn {

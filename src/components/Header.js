@@ -19,15 +19,16 @@ const Header = () => {
             </a>
           </li>
           <li>
+            <a className="smoothscroll" href="#rsvp">
+              RSVP
+            </a>
+          </li>
+          <li>
             <a className="smoothscroll" href="#ourStory">
               Our Story
             </a>
           </li>
-          {/* <li>
-            <a className="smoothscroll" href="#resume">
-              Resume
-            </a>
-          </li> */}
+          
           <li>
             <a className="smoothscroll" href="#lodging">
               Lodging Accomodations

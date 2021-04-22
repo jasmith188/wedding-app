@@ -5,17 +5,24 @@
   background-size: cover;
 }
 .mainInfo__nameTitle {
-  color: black !important;
-  font-size: 80px !important;
+  /* color: black !important; */
+  font-size: 80px ;
   font-family: 'Great Vibes', cursive;
   padding-top: 150px;
+  padding-bottom: 40px;
   color: white !important;
+}
+.mainInfo__countdown {
+  font-size: 5rem;
+}
+.mainInfo__countdown > p {
+  font-size: 1.4rem;
 }
 
 .mainInfo p {
   color: white;
   font-family: 'Montserrat', sans-serif;
-  padding: 50px 0 50px 0;
+  padding: 5px 0 50px 0;
 }
 
 .mainInfo__initials {
@@ -47,6 +54,12 @@ hr {
   .mainInfo__nameTitle {
     padding-top: 70px;
   }
+  .mainInfo__countdown {
+    font-size: 4rem;
+  }
+  .mainInfo__countdown > p {
+    font-size: 1.2rem;
+  }
 }
 
 /* mobile narrow */
@@ -61,6 +74,12 @@ hr {
   .mainInfo__nameTitle {
     padding-top: 80px;
     font-size: 60px !important;
+  }
+  .mainInfo__countdown {
+    font-size: 2.5rem;
+  }
+  .mainInfo__countdown > p {
+    font-size: 1.2rem;
   }
 }
 

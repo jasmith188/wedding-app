@@ -1,47 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './MainInfo.css';
+import Countdown from 'react-countdown';
 
-const MainInfo = () => {
-  const calculateTimeLeft = () => {
-    let year = new Date().getFullYear();
-    const difference = +new Date(`${year}-11-6`) - +new Date();
-    let timeLeft = {};
-
-    if (difference > 0) {
-      timeLeft = {
-        '': Math.floor(difference / (1000 * 60 * 60 * 24)),
-      };
+const MainInfo = ({ days, hours, minutes}) => {
+ 
+  const renderer = ({ days,  completed }) => {
+    if (completed) {
+      // Render a completed state
+      return  'Todays the big day!!!';
+    } else {
+      // Render a countdown
+      return <span className='mainInfo__countdown'>{days} more days<br/><p> until the big day!</p></span>;
     }
-
-    return timeLeft;
   };
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
-  useEffect(() => {
-    setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
-  });
-
-  const timerComponents = [];
-
-  Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
-      return;
-    }
-
-    timerComponents.push(
-      <span>
-        {timeLeft[interval]} {interval}{' '}
-      </span>
-    );
-  });
+  
   return (
     <div className="mainInfo" id='home'>
       <h1 className="mainInfo__nameTitle">Katie and Jimmy</h1>
-      {timerComponents.length ? timerComponents : <span>Time's up!</span>} DAYS
-      TO GO!
+      <Countdown
+    date={new Date('2021-11-06') + 5000}
+    renderer={renderer}
+  />
       <h3 className="banner__h3">
         NOVEMBER 6, 2021 • WEAVERVILLE, NC
         {/* {description} */}
