@@ -71,6 +71,7 @@ header .scrolldown a:hover {
   position: fixed;
   left: 0;
   top: 0;
+  padding-top: 20px;
 }
 
 
@@ -126,6 +127,15 @@ ul#nav li a:active {
 
 .responsive-headline span {
   color: white;
+}
+
+/* desktop
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1045px) {
+  #nav-wrap {
+    padding-top: 2px;
+  }
 }
 
 /* mobile wide/smaller tablets

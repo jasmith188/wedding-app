@@ -10,7 +10,7 @@ const MainInfo = ({ days, hours, minutes}) => {
       return  'Todays the big day!!!';
     } else {
       // Render a countdown
-      return <span className='mainInfo__countdown'>{days} more days<br/><p> until the big day!</p></span>;
+      return <span className='mainInfo__countdown'>{days} DAYS TO GO!<br/></span>;
     }
   };
 

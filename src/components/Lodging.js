@@ -35,38 +35,50 @@ const Lodging = () => {
         </a>
       </div>
       <br />
-      <div>
-        <img
-          variant="top"
-          src={airBnB}
-          alt="airbnb"
-          className="lodging__bookingImage"
-        />
 
-        <p>AIRBNB</p>
-        <p>
-          There are many Airbnb options near Emerald Ridge Farm -
-          Asheville/Weaverville -
-        </p>
-
-        <a href="https://www.airbnb.com/">
-          <button>Link to Website</button>
-        </a>
-      </div>
       <br />
-      <div>
-        <img variant="top" src={vRbo} alt="vrbo" className="lodging__bookingImage" />
 
-        <p>
-          There are plenty of Vrbo options near Emerald Ridge Farm -
-          Asheville/Weaverville -
-        </p>
+      <div className="row">
+        <div className="column">
+          <div>
+            <img
+              variant="top"
+              src={airBnB}
+              alt="airbnb"
+              className="lodging__bookingImage"
+            />
 
-        <a href="https://www.vrbo.com/">
-          <button>Link to Website</button>
-        </a>
+            <p>AIRBNB</p>
+            <p>
+              There are many Airbnb options near Emerald Ridge Farm -
+              Asheville/Weaverville -
+            </p>
+
+            <a href="https://www.airbnb.com/">
+              <button>Link to Website</button>
+            </a>
+          </div>
+        </div>
+        <div className="column">
+          <div>
+            <img
+              variant="top"
+              src={vRbo}
+              alt="vrbo"
+              className="lodging__bookingImage"
+            />
+            <p>VRBO</p>
+            <p>
+              There are plenty of Vrbo options near Emerald Ridge Farm -
+              Asheville/Weaverville -
+            </p>
+
+            <a href="https://www.vrbo.com/">
+              <button>Link to Website</button>
+            </a>
+          </div>
+        </div>
       </div>
-     
     </div>
   );
 };

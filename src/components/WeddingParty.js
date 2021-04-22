@@ -43,7 +43,7 @@ const WeddingParty = () => {
         <br />
         <p>
           Liz (a kindred heart from Wisconsin) met Katie and Jimmy while working
-          on the cruise ship in Hawai’I in 2013. Having her with us to share the
+          on the cruise ship in Hawai’i in 2013. Having her with us to share the
           day was an easy choice.
         </p>
       </div>

@@ -13,11 +13,9 @@
   color: white !important;
 }
 .mainInfo__countdown {
-  font-size: 5rem;
+  font-size: 4rem;
 }
-.mainInfo__countdown > p {
-  font-size: 1.4rem;
-}
+
 
 .mainInfo p {
   color: white;

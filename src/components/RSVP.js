@@ -74,7 +74,7 @@ const RSVP = () => {
         <h1>Katie & Jimmy</h1>
         <p className="line">________________________________________</p>
         <h2>The Details</h2>
-        <p>Saturday, November 11, 2021</p>
+        <p>Saturday, November 6, 2021</p>
         <p>5:00 PM</p>
         <br />
         <h2>Ceremony & Reception</h2>
