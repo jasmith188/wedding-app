@@ -19,7 +19,7 @@ const MainInfo = ({ days, hours, minutes}) => {
     <div className="mainInfo" id='home'>
       <h1 className="mainInfo__nameTitle">Katie and Jimmy</h1>
       <Countdown
-    date={new Date('2021-11-06') + 5000}
+    date={new Date('2021/11/06 00:00:00') + 5000}
     renderer={renderer}
   />
       <h3 className="banner__h3">
