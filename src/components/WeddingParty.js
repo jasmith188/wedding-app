@@ -6,6 +6,7 @@ import sirayaPic from '../weddingImages/siraya.jpg';
 import baileyPic from '../weddingImages/bailey.jpg';
 import reneePic from '../weddingImages/renee.jpg';
 import bridgetPic from '../weddingImages/bridget.jpg';
+import { Accordion, Card, Button } from 'react-bootstrap';
 
 const WeddingParty = () => {
   return (
@@ -14,6 +15,28 @@ const WeddingParty = () => {
       <br />
       <br />
       <h2 className="weddingParty__title">Bride's Side</h2>
+      <Accordion>
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="0">
+              Click me!
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="0">
+            <Card.Body>Hello! I'm the body</Card.Body>
+          </Accordion.Collapse>
+        </Card>
+        <Card>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey="1">
+              Click me!
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="1">
+            <Card.Body>Hello! I'm another body</Card.Body>
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
       <div className="weddingParty__card">
         <img src={jenPic} alt="girl emoji" className="weddingParty__image" />
         <h1 className="weddingParty__name">Jennifer Garrett - Maid of Honor</h1>
@@ -70,7 +93,11 @@ const WeddingParty = () => {
         </p>
       </div>
       <div className="weddingParty__card">
-        <img src={bridgetPic} alt="girl emoji" className="weddingParty__image" />
+        <img
+          src={bridgetPic}
+          alt="girl emoji"
+          className="weddingParty__image"
+        />
         <h1 className="weddingParty__name">Bridget Crawford – Attendant</h1>
         <br />
         <p>

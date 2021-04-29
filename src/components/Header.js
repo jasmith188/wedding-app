@@ -28,7 +28,7 @@ const Header = () => {
               Our Story
             </a>
           </li>
-          
+
           <li>
             <a className="smoothscroll" href="#lodging">
               Lodging Accomodations

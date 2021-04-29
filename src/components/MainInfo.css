@@ -6,7 +6,7 @@
 }
 .mainInfo__nameTitle {
   /* color: black !important; */
-  font-size: 80px ;
+  font-size: 80px;
   font-family: 'Great Vibes', cursive;
   padding-top: 150px;
   padding-bottom: 40px;
@@ -16,11 +16,12 @@
   font-size: 4rem;
 }
 
-
-.mainInfo p {
+.mainInfo > p {
   color: white;
   font-family: 'Montserrat', sans-serif;
-  padding: 5px 0 50px 0;
+  /* padding: 5px 0 50px 0; */
+  margin-bottom: 0px;
+  padding-bottom: 1.5rem;
 }
 
 .mainInfo__initials {
@@ -79,6 +80,15 @@ hr {
   .mainInfo__countdown > p {
     font-size: 1.2rem;
   }
+
+  .mainInfo > p {
+    padding: 0 8px 34px 8px;
+  }
+
+  .banner__h3 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
 
 /* iphone 12 mini */
@@ -100,4 +110,3 @@ hr {
 }
 
 /* RSVP Form */
-
