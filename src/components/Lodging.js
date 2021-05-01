@@ -7,7 +7,9 @@ import vRbo from '../images/vrbo.jpeg';
 const Lodging = () => {
   return (
     <div className="lodging" id="lodging">
-      <h1>Lodging Accomodations </h1>
+      <h1>
+        <strong>Lodging Accomodations</strong>
+      </h1>
       <div>
         <img variant="top" src={Image} alt="hotel" className="lodging__image" />
         <h3>

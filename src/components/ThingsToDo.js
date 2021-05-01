@@ -6,7 +6,9 @@ import './ThingsToDo.css';
 const ThingsToDo = () => {
   return (
     <div className="thingsToDo" id="thingsToDo">
-      <h1>Things To Do</h1>
+      <h1>
+        <strong>Things To Do</strong>
+      </h1>
       <div>
         <img
           variant="top"

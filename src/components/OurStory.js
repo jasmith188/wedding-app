@@ -20,7 +20,9 @@ import { Carousel } from 'react-responsive-carousel';
 const OurStory = () => {
   return (
     <div className="ourStory" id="ourStory">
-      <h1>Our Story</h1>
+      <h1>
+        <strong>Our Story</strong>
+      </h1>
       <p>
         Jimmy and Katie met in 2013 while working aboard the Pride of America in
         Hawai'i. Their first 'official' date was snorkeling at Hanuma Bay on the
