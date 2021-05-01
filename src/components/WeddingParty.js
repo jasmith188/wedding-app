@@ -166,8 +166,8 @@ const WeddingParty = () => {
               <h1 className="weddingParty__name">Mike Dubois - Groomsman</h1>
               <br />
               <p>
-                Mike is a friend of the groom. Jimmy knew Mike would be there to
-                support him on his big day.
+                Mike is a friend of the groom. They go way back. Jimmy knew Mike
+                would be there to support him on his big day.
               </p>
             </div>
           </div>
@@ -199,10 +199,9 @@ const WeddingParty = () => {
               <h1 className="weddingParty__name">Gabe Shuman - Groomsman</h1>
               <br />
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Dolorem maxime ut, eos in corrupti voluptas nostrum tempora
-                obcaecati accusantium quo! Dolorem dolorum distinctio et
-                temporibus corporis? Earum debitis ad animi.
+                Gabe is a friend of the groom – the choice was easy to have Gabe
+                standing with Jimmy during his wedding. It was his his first
+                friend he met when he moved to North Carolina.
               </p>
             </div>
           </div>
