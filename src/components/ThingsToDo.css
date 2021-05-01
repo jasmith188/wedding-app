@@ -3,24 +3,34 @@
   padding: 0 10px 0 10px;
 }
 
- .thingsToDo > h1 {
-  padding: 140px 0 20px 0;
+.thingsToDo > h1 {
+  padding: 50px 0 20px 0;
   font-size: 54px;
 }
 
 .thingsToDo__image {
-  padding: 60px 0 60px 0;
+  padding: 30px 0 30px 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
 }
 
-
 /* Tablet Size */
 
 @media only screen and (max-width: 660px) {
-    .thingsToDo__image {
-        width: 270px;
-    }
+  .thingsToDo__image {
+    width: 270px;
+  }
+  .thingsToDo > h1 {
+    padding: 40px 0 20px 0;
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 400px) {
+  .thingsToDo > h1 {
+    padding: 20px 0 20px 0;
+  }
 }

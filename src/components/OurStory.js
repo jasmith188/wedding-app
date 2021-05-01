@@ -27,46 +27,93 @@ const OurStory = () => {
         big island of O'ahu - it was forever after that.
       </p>
       <Carousel className="ourStory__carousel">
-        <div className='ourStory__carousel-slider'>
-          <img className='ourStory__image' src={Image1} alt="katieandjimmypic" />
+        <div className="ourStory__carousel-slider">
+          <img
+            className="ourStory__image"
+            src={Image10}
+            alt="katieandjimmypic"
+          />
         </div>
         <div>
-          <img className='ourStory__image' src={Image2} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image2}
+            alt="katieandjimmypic"
+          />
         </div>
 
         <div>
-          <img className='ourStory__image' src={Image4} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image4}
+            alt="katieandjimmypic"
+          />
         </div>
 
         <div>
-          <img className='ourStory__image' src={Image6} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image6}
+            alt="katieandjimmypic"
+          />
         </div>
         <div>
-          <img className='ourStory__image' src={Image7} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image7}
+            alt="katieandjimmypic"
+          />
         </div>
         <div>
-          <img className='ourStory__image' src={Image8} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image8}
+            alt="katieandjimmypic"
+          />
         </div>
         <div>
-          <img className='ourStory__image' src={Image9} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image9}
+            alt="katieandjimmypic"
+          />
         </div>
         <div>
-          <img className='ourStory__image' src={Image10} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image1}
+            alt="katieandjimmypic"
+          />
         </div>
         <div>
-          <img className='ourStory__image' src={Image11} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image11}
+            alt="katieandjimmypic"
+          />
         </div>
         <div>
-          <img className='ourStory__image' src={Image12} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image12}
+            alt="katieandjimmypic"
+          />
         </div>
         <div>
-          <img className='ourStory__image' src={Image13} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image13}
+            alt="katieandjimmypic"
+          />
         </div>
         <div>
-          <img className='ourStory__image' src={Image14} alt="katieandjimmypic" />
+          <img
+            className="ourStory__image"
+            src={Image14}
+            alt="katieandjimmypic"
+          />
         </div>
       </Carousel>
-      
     </div>
   );
 };

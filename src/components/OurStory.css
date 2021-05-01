@@ -1,5 +1,5 @@
 .ourStory > h1 {
-  padding: 140px 0 40px 0;
+  padding: 80px 0 40px 0;
   text-align: center;
   font-size: 54px;
 }
@@ -36,6 +36,9 @@
 /* Tablet Size */
 
 @media only screen and (max-width: 660px) {
+  .ourStory > h1 {
+    padding: 30px 0 30px 0;
+  }
   .ourStory p {
     font-size: 20px !important;
     /* padding: 0 20px 0 20px !important; */
@@ -50,6 +53,18 @@
     /* height: 300px !important; */
   }
   .ourStory__carousel {
-    padding: 50px 60px 90px 60px !important;
+    padding: 50px 60px 40px 60px;
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 400px) {
+  .ourStory > h1 {
+    padding: 30px 0 30px 0;
+  }
+
+  .ourStory__carousel {
+    padding: 20px auto 20px auto;
   }
 }
