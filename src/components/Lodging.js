@@ -56,7 +56,7 @@ const Lodging = () => {
             </p>
 
             <a href="https://www.airbnb.com/">
-              <button>Link to Website</button>
+              <button className="lodging__button">Link to Website</button>
             </a>
           </div>
         </div>
@@ -75,7 +75,7 @@ const Lodging = () => {
             </p>
 
             <a href="https://www.vrbo.com/">
-              <button>Link to Website</button>
+              <button className="lodging__button">Link to Website</button>
             </a>
           </div>
         </div>

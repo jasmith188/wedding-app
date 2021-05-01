@@ -22,7 +22,7 @@
 }
 
 .lodging > h1 {
-  padding: 60px 0 20px 0;
+  padding: 100px 0 20px 0;
   font-size: 54px;
 }
 
@@ -31,7 +31,20 @@
 }
 
 .lodging__button {
-  font-size: 18px;
+  /* background-color: rgb(0, 0, 0);  */
+  border: none;
+  /* color: white; */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.lodging__button:hover {
+  background-color: #064b00;
+  color: #fff;
+  transition: 0.5s;
 }
 
 .row {

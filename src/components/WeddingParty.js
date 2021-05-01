@@ -200,7 +200,7 @@ const WeddingParty = () => {
               <br />
               <p>
                 Gabe is a friend of the groom – the choice was easy to have Gabe
-                standing with Jimmy during his wedding. It was his his first
+                standing with Jimmy during his wedding. He was his his first
                 friend he met when he moved to North Carolina.
               </p>
             </div>

@@ -32,7 +32,7 @@ const MainInfo = ({ days, hours, minutes }) => {
             <a href="tel:704-909-8461">Jimmy's Cell</a>
           </ul> */}
       <p>
-        <strong> Emerald Ridge Farm</strong>
+        <strong>Emerald Ridge Farm</strong>
         <br />
         <strong>161 Green Ridge Road, Weaverville, NC, 28787</strong>
         <br />

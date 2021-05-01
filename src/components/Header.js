@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { BrowserRouter as Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -14,45 +15,29 @@ const Header = () => {
 
         <ul id="nav" className="nav">
           <li className="current">
-            <a className="smoothscroll" href="#home">
-              Home
-            </a>
+            <Link to="/">Home</Link>
           </li>
-          <li>
-            <a className="smoothscroll" href="#rsvp">
-              RSVP
-            </a>
+          <li className="smoothscroll">
+            <Link to="/rsvp">RSVP</Link>
           </li>
-          <li>
-            <a className="smoothscroll" href="#ourStory">
-              Our Story
-            </a>
+          <li className="smoothscroll">
+            <Link to="/ourstory">Our Story</Link>
           </li>
 
-          <li>
-            <a className="smoothscroll" href="#lodging">
-              Lodging Accomodations
-            </a>
+          <li className="smoothscroll">
+            <Link to="/lodging">Lodging</Link>
           </li>
-          <li>
-            <a className="smoothscroll" href="#thingsToDo">
-              Things to Do
-            </a>
+          <li className="smoothscroll">
+            <Link to="/thingstodo">Things To Do</Link>
           </li>
-          <li>
-            <a className="smoothscroll" href="#wedding">
-              Wedding Party
-            </a>
+          <li className="smoothscroll">
+            <Link to="/weddingparty">Wedding Party</Link>
           </li>
-          <li>
-            <a className="smoothscroll" href="#questions">
-              Q + A
-            </a>
+          <li className="smoothscroll">
+            <Link to="/questions">Q + A</Link>
           </li>
-          <li>
-            <a className="smoothscroll" href="#registry">
-              Registry
-            </a>
+          <li className="smoothscroll">
+            <Link to="/registry">Registry</Link>
           </li>
         </ul>
       </nav>
