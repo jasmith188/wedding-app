@@ -38,7 +38,7 @@ const Lodging = () => {
       <br />
 
       <div className="row">
-        <div className="column">
+        <div className="lodging__column">
           <div>
             <img
               variant="top"
@@ -58,7 +58,7 @@ const Lodging = () => {
             </a>
           </div>
         </div>
-        <div className="column">
+        <div className="lodging__column">
           <div>
             <img
               variant="top"
