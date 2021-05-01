@@ -1,12 +1,16 @@
 import React from 'react';
-import './Questions.css'
+import './Questions.css';
 
 const Qestions = () => {
   return (
     <div className="questions" id="questions">
-      <h1>Questions and Answers</h1>
+      <h1>
+        <strong>Questions and Answers</strong>
+      </h1>
       <strong>
-        <h3>WHAT ABOUT COVID?</h3>
+        <h3>
+          <strong>WHAT ABOUT COVID?</strong>
+        </h3>
       </strong>
       <p>
         Emerald Ridge Farm is a 33 acre property that we have for the entire

@@ -4,15 +4,21 @@ import jenPic from '../weddingImages/jen.jpg';
 import lizPic from '../weddingImages/liz.jpg';
 import sirayaPic from '../weddingImages/siraya.jpg';
 import baileyPic from '../weddingImages/bailey.jpg';
-import reneePic from '../weddingImages/renee.jpg';
-import bridgetPic from '../weddingImages/bridget.jpg';
+import reneePic from '../weddingImages/renee.jpeg';
+import bridgetPic from '../weddingImages/bridget.jpeg';
+import justinPic from '../weddingImages/justin.jpg';
+import nickPic from '../weddingImages/nick.jpg';
+import mikePic from '../weddingImages/mike.jpg';
+import gabePic from '../weddingImages/gabe.jpg';
 
 const WeddingParty = () => {
   return (
     <div className="weddingParty" id="wedding">
       <h1>Wedding Party</h1>
       <div className="weddingParty__brides">
-        <h2 className="weddingParty__title">Bride's Side</h2>
+        <h2 className="weddingParty__title">
+          <strong>Bride's Side</strong>
+        </h2>
 
         <div className="row">
           <div className="column">
@@ -130,70 +136,79 @@ const WeddingParty = () => {
         </div>
       </div>
       <div className="weddingParty__grooms">
-        <h1>Groom's Side</h1>
-        <div className="weddingParty__card">
-          <img
-            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/boy_light-skin-tone_1f466-1f3fb_1f3fb.png"
-            alt="girl emoji"
-            className="weddingParty__image"
-          />
-          <h1 className="weddingParty__name">Justin Merod</h1>
-          <br />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            maxime ut, eos in corrupti voluptas nostrum tempora obcaecati
-            accusantium quo! Dolorem dolorum distinctio et temporibus corporis?
-            Earum debitis ad animi.
-          </p>
+        <h2 className="weddingParty__title">
+          <strong>Groom's Side</strong>
+        </h2>
+
+        <div className="row">
+          <div className="column">
+            <div className="weddingParty__card">
+              <img
+                src={justinPic}
+                alt="girl emoji"
+                className="weddingParty__image"
+              />
+              <h1 className="weddingParty__name">Justin Merod - Best Man</h1>
+              <br />
+              <p>
+                Justin is the groom’s cousin and Jimmy couldn’t have asked for a
+                better man to stand next to him on his wedding day.
+              </p>
+            </div>
+          </div>
+          <div className="column">
+            <div className="weddingParty__card">
+              <img
+                src={mikePic}
+                alt="girl emoji"
+                className="weddingParty__image"
+              />
+              <h1 className="weddingParty__name">Mike Dubois - Groomsman</h1>
+              <br />
+              <p>
+                Mike is a friend of the groom. Jimmy knew Mike would be there to
+                support him on his big day.
+              </p>
+            </div>
+          </div>
         </div>
+
+        <div className="row">
+          <div className="column">
+            <div className="weddingParty__card">
+              <img
+                src={nickPic}
+                alt="girl emoji"
+                className="weddingParty__image"
+              />
+              <h1 className="weddingParty__name">Nick Schubert - Groomsman</h1>
+              <br />
+              <p>
+                Nick is the brother of the groom. Jimmy knew he’d want his only
+                brother to be there with him when he says I Do.
+              </p>
+            </div>
+          </div>
+          <div className="column">
+            <div className="weddingParty__card">
+              <img
+                src={gabePic}
+                alt="girl emoji"
+                className="weddingParty__image"
+              />
+              <h1 className="weddingParty__name">Gabe Shuman - Groomsman</h1>
+              <br />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolorem maxime ut, eos in corrupti voluptas nostrum tempora
+                obcaecati accusantium quo! Dolorem dolorum distinctio et
+                temporibus corporis? Earum debitis ad animi.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <br />
-        <div className="weddingParty__card">
-          <img
-            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/boy_light-skin-tone_1f466-1f3fb_1f3fb.png"
-            alt="girl emoji"
-            className="weddingParty__image"
-          />
-          <h1 className="weddingParty__name">Mike Dubois</h1>
-          <br />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            maxime ut, eos in corrupti voluptas nostrum tempora obcaecati
-            accusantium quo! Dolorem dolorum distinctio et temporibus corporis?
-            Earum debitis ad animi.
-          </p>
-        </div>
-        <br />
-        <div className="weddingParty__card">
-          <img
-            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/boy_light-skin-tone_1f466-1f3fb_1f3fb.png"
-            alt="girl emoji"
-            className="weddingParty__image"
-          />
-          <h1 className="weddingParty__name">Gabe Schuman</h1>
-          <br />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            maxime ut, eos in corrupti voluptas nostrum tempora obcaecati
-            accusantium quo! Dolorem dolorum distinctio et temporibus corporis?
-            Earum debitis ad animi.
-          </p>
-        </div>
-        <br />
-        <div className="weddingParty__card">
-          <img
-            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/boy_light-skin-tone_1f466-1f3fb_1f3fb.png"
-            alt="girl emoji"
-            className="weddingParty__image"
-          />
-          <h1 className="weddingParty__name">Nick Schubert</h1>
-          <br />
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            maxime ut, eos in corrupti voluptas nostrum tempora obcaecati
-            accusantium quo! Dolorem dolorum distinctio et temporibus corporis?
-            Earum debitis ad animi.
-          </p>
-        </div>
       </div>
     </div>
   );
