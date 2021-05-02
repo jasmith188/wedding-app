@@ -8,5 +8,15 @@
   },
   "ourStory": {
     "image1": "image1.img"
+  },
+  "rsvp": {
+    "notification": "Thanks for your RSVP! We can't wait to see you there!",
+    "name": "Katie and Jimmy",
+    "date": "Saturday, November 6, 2021",
+    "time": "3:30 PM"
+  },
+  "lodging" {
+    "message": "We reserved a block for you...",
+    "address": "25 FAIRFIELD APPROACH DR, WEAVERVILLE, NC 28787, USA (828) 645-9000"
   }
 }

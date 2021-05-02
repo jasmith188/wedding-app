@@ -10,11 +10,18 @@ const Lodging = () => {
       <h1>
         <strong>Lodging Accomodations</strong>
       </h1>
+      <br />
+      <h2>
+        We reserved a block of 10 rooms for you. Try to book one of them as soon
+        as you can!
+      </h2>
       <div>
         <img variant="top" src={Image} alt="hotel" className="lodging__image" />
         <h3>
-          25 FAIRFIELD APPROACH DR, WEAVERVILLE, NC 28787, USA (828) 645-9000
+          25 FAIRFIELD APPROACH DR, WEAVERVILLE, NC 28787, USA{' '}
+          <a href="tel:828-645-9000">(828) 645-9000</a>
         </h3>
+
         <p>
           <strong>Check-In</strong>: Friday, November 5, 2021 |{' '}
           <strong>Check-Out</strong>: Sunday, November 7, 2021

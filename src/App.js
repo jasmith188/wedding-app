@@ -1,6 +1,7 @@
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './components/Footer';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Lodging from './components/Lodging';
 import MainInfo from './components/MainInfo';
 import OurStory from './components/OurStory';
@@ -8,29 +9,24 @@ import ThingsToDo from './components/ThingsToDo';
 import WeddingParty from './components/WeddingParty';
 import Questions from './components/Questions';
 import RSVP from './components/RSVP';
-import { useEffect, useState } from 'react';
+import Navbar from './components/Navbar';
 
 const App = () => {
-  const [weddingData, setWeddingData] = useState({});
-
-  useEffect(() => {
-    fetch('/weddingData.json')
-      .then((res) => res.json())
-      .then((data) => {
-        setWeddingData(data);
-      });
-  }, []);
   return (
     <div className="app">
-      <Header />
-      <MainInfo />
-      <RSVP data={weddingData.rsvp} />
-      <OurStory />
-      <Lodging />
-      <ThingsToDo />
-      <WeddingParty />
-      <Questions />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={MainInfo} />
+          <Route path="/rsvp" exact component={RSVP} />
+          <Route path="/ourstory" exact component={OurStory} />
+          <Route path="/lodging" exact component={Lodging} />
+          <Route path="/thingstodo" exact component={ThingsToDo} />
+          <Route path="/weddingparty" exact component={WeddingParty} />
+          <Route path="/questions" exact component={Questions} />
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 };
