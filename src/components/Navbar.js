@@ -38,24 +38,13 @@ const Navbar = () => {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
-            <Link to="/rsvp" className="nav-links" onClick={closeMobileMenu}>
-              rsvp
-            </Link>
-          </li>
-          <li
-            className="nav-item"
-            // onMouseEnter={onMouseEnter}
-            // onMouseLeave={onMouseLeave}
-          >
             <Link
               to="/ourstory"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              {/* <i className="fas fa-caret-down" /> */}
               our story
             </Link>
-            {/* {dropdown && <Dropdown />} */}
           </li>
           <li className="nav-item">
             <Link to="/lodging" className="nav-links" onClick={closeMobileMenu}>
@@ -87,6 +76,15 @@ const Navbar = () => {
               onClick={closeMobileMenu}
             >
               q + a
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/registry"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              registry
             </Link>
           </li>
         </ul>

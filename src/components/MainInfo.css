@@ -2,7 +2,8 @@
   text-align: center;
   color: white;
   background-image: url('../images/mountain-turn.jpg');
-  background-size: cover;
+  background-size: 200%;
+  background-repeat: no-repeat;
 }
 .mainInfo__nameTitle {
   /* color: black !important; */
