@@ -52,10 +52,10 @@ const WeddingParty = () => {
               </h1>
 
               <p>
-                Siraya is the sister of the bride and Katie wanted nothing more
-                than to have her by her side when she marries Jimmy. Siraya
-                worked on the cruise ship with Jimmy and Katie – so she has been
-                there since the very beginning!
+                Siraya is the brides sister and Katie wanted nothing more than
+                to have her by her side when she marries Jimmy. Siraya worked on
+                the cruise ship with Jimmy and Katie – so she has been there
+                since the very beginning!
               </p>
             </div>
           </div>

@@ -11,10 +11,10 @@ const Lodging = () => {
         <strong>Lodging Accomodations</strong>
       </h1>
       <br />
-      <h2>
-        We reserved a block of 10 rooms for you. Try to book one of them as soon
-        as you can!
-      </h2>
+      <p>
+        We reserved a block of rooms for you. Try to book one of them as soon as
+        you can!
+      </p>
       <div>
         <img variant="top" src={Image} alt="hotel" className="lodging__image" />
         <h3>

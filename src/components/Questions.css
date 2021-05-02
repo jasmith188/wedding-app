@@ -4,6 +4,9 @@
 }
 
 .questions > h1 {
-  padding: 90px 0 20px 0;
+  padding: 20px 0 20px 0;
   font-size: 44px;
+}
+.questions .questions > h2 {
+  font-family: 'Montserrat', sans-serif;
 }

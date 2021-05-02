@@ -30,7 +30,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          K&J
+          K &J
           {/* <i class="fab fa-firstdraft" /> */}
         </Link>
         <div className="menu-icon" onClick={handleClick}>

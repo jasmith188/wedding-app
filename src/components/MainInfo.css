@@ -7,13 +7,13 @@
 .mainInfo__nameTitle {
   /* color: black !important; */
   font-size: 80px;
-  font-family: 'Parisienne', cursive;
+  font-family: 'Great Vibes', cursive;
   padding-top: 150px;
   padding-bottom: 40px;
   color: white !important;
 }
 .mainInfo__countdown {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .mainInfo > p {
@@ -34,7 +34,7 @@
   padding-bottom: 30px;
 }
 .banner__h3 {
-  padding-top: 90px;
+  padding-top: 40px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
 }
@@ -78,7 +78,7 @@ hr {
     font-size: 2rem;
   }
   .mainInfo__countdown > p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .mainInfo > p {

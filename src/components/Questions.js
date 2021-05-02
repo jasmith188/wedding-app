@@ -9,7 +9,9 @@ const Qestions = () => {
       </h1>
       <strong>
         <h3>
-          <strong>WHAT ABOUT COVID?</strong>
+          <strong>
+            <u>WHAT ABOUT COVID?</u>
+          </strong>
         </h3>
       </strong>
       <p>
@@ -22,7 +24,9 @@ const Qestions = () => {
       </p>
       <br />
       <strong>
-        <h3>WHAT AIRPORT SHOULD I FLY INTO?</h3>
+        <h3>
+          <u>WHAT AIRPORT SHOULD I FLY INTO?</u>
+        </h3>
       </strong>
       <p>
         There are a few options: 1. Asheville (AVL) - 11 miles from downtown 2.
@@ -31,11 +35,24 @@ const Qestions = () => {
       </p>
       <br />
       <strong>
-        <h3>WHAT IS THE ATTIRE?</h3>
+        <h3>
+          <u>WHAT IS THE ATTIRE?</u>
+        </h3>
       </strong>
       <p>
         Semi-formal - suggested to bring a light jacket or sweater as the
         temperature may drop at night.
+      </p>
+      <br />
+      <strong>
+        <h3>
+          <u>IS THERE PARKING AT THE VENUE?</u>
+        </h3>
+      </strong>
+      <p>
+        Yes! There is parking for up to 50 vehicles at the venue. Uber and Lyft
+        reach the area, so we suggest either utilizing one of those services or
+        car pooling to ensure we have enough space for everyone.
       </p>
     </div>
   );
