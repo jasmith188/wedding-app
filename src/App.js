@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 // import Header from './components/Header';
 import Lodging from './components/Lodging';
 import MainInfo from './components/MainInfo';
+import RSVP from './components/RSVP';
 import OurStory from './components/OurStory';
 import ThingsToDo from './components/ThingsToDo';
 import WeddingParty from './components/WeddingParty';
@@ -18,6 +19,7 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route path="/" exact component={MainInfo} />
+          <Route path="/rsvp" component={RSVP} />
 
           <Route path="/ourstory" exact component={OurStory} />
           <Route path="/lodging" exact component={Lodging} />

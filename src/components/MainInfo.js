@@ -2,13 +2,13 @@ import React from 'react';
 import './MainInfo.css';
 import './RSVP.css';
 import Countdown from 'react-countdown';
-import { useForm, ValidationError } from '@formspree/react';
+// import { useForm, ValidationError } from '@formspree/react';
 
 const MainInfo = ({ days, hours, minutes }) => {
-  const [state, handleSubmit] = useForm('mwkapeze');
-  if (state.succeeded) {
-    return <p>Thanks for your RSVP! We can't wait to see you there!</p>;
-  }
+  // const [state, handleSubmit] = useForm('mwkapeze');
+  // if (state.succeeded) {
+  //   return <p>Thanks for your RSVP! We can't wait to see you there!</p>;
+  // }
 
   const renderer = ({ days, completed }) => {
     if (completed) {
@@ -49,7 +49,7 @@ const MainInfo = ({ days, hours, minutes }) => {
         </strong>
       </p>
       <br />
-      <div className="rsvp" id="rsvp">
+      {/* <div className="rsvp" id="rsvp">
         <div className="top"></div>
         <form className="form" onSubmit={handleSubmit}>
           <h1 className="rsvp__topFormh1">RSVP</h1>
@@ -107,11 +107,11 @@ const MainInfo = ({ days, hours, minutes }) => {
               errors={state.errors}
             />
           </label>
-          {/* <button className ="accept">Accept</button> */}
+         
 
           <button className="button">Submit</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };
