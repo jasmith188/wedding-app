@@ -30,7 +30,7 @@
   /* grid-gap: 10px; */
   list-style: none;
   text-align: center;
-  width: 100vw;
+  /* width: 100vw; */
   justify-content: end;
 }
 
@@ -66,6 +66,16 @@
 }
 
 @media screen and (max-width: 760px) {
+  .navbar-logo {
+    color: rgb(151, 10, 10);
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Great Vibes', cursive;
+    padding-top: 5px;
+  }
   .NavbarItems {
     position: relative;
   }
