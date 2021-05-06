@@ -11,7 +11,7 @@ const Registry = () => {
         </strong>
       </h4>
       <br />
-      <p>Thanks again!</p>
+      <p>Thank you!</p>
     </div>
   );
 };

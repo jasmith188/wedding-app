@@ -11,3 +11,19 @@
 .footer__date {
   padding-bottom: 1rem;
 }
+
+/* Tablet Size */
+
+@media only screen and (max-width: 660px) {
+  .footer__initials {
+    font-size: 2.2rem;
+  }
+}
+
+/* Mobile Size */
+
+@media only screen and (max-width: 390px) {
+  .footer__initials {
+    font-size: 1.7rem;
+  }
+}

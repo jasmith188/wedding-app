@@ -28,7 +28,6 @@ const OurStory = () => {
         Hawai'i. Their first date was in 2015 snorkeling at Hanuma Bay on the
         big island of O'ahu - it was forever after that.
       </p>
-
       <Carousel className="ourStory__carousel">
         <div className="ourStory__carousel-slider">
           <img
