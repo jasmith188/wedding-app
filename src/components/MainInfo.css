@@ -1,8 +1,8 @@
 .mainInfo {
   text-align: center;
   color: white;
-  background-image: url('../images/mountain-turn.jpg');
-  background-size: 360%;
+  background-image: url('../images/smokey-mountain-backdrop.jpeg');
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .mainInfo__nameTitle {
