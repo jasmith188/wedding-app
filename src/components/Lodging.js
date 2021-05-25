@@ -36,7 +36,10 @@ const Lodging = () => {
         <p>
           <strong>- must book room by 10/5</strong>
         </p>
-        <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1617900603438&key=GRP&app=resvlink">
+        <a
+          href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1617900603438&key=GRP&app=resvlink"
+          target="_new"
+        >
           <button className="lodging__button">
             Link to 'Katie and Jimmy's Hotel Block'
           </button>
