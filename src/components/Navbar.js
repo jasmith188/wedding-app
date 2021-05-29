@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../images/KandJ_KJ-black-red.png';
 // import Dropdown from './Dropdown';
 
 const Navbar = () => {
@@ -29,8 +30,13 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          K &J
+        <Link to="/" onClick={closeMobileMenu}>
+          <img
+            className="navbar-logo"
+            src={logo}
+            alt="title-logo"
+            height="40px"
+          />
           {/* <i class="fab fa-firstdraft" /> */}
         </Link>
         <div className="menu-icon" onClick={handleClick}>

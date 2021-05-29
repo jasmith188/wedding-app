@@ -7,9 +7,10 @@
 }
 .mainInfo__nameTitle {
   /* color: black !important; */
+  height: 150px;
   font-size: 80px;
   font-family: 'Great Vibes', cursive;
-  padding-top: 275px;
+  padding-top: 75px;
   padding-bottom: 40px;
   color: white !important;
   margin-top: 0;
@@ -54,18 +55,26 @@ hr {
   }
   .mainInfo__nameTitle {
     padding-top: 30px;
+    height: 100px;
   }
   .mainInfo__countdown {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .mainInfo__countdown > p {
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+  .banner__h3 {
+    font-size: 1.3rem;
   }
 }
 
 /* mobile narrow */
 
 @media only screen and (max-width: 420px) {
+  .mainInfo__nameTitle {
+    padding-top: 30px;
+    height: 80px;
+  }
   p {
     padding-top: 40px;
   }

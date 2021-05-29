@@ -2,6 +2,7 @@ import React from 'react';
 import './MainInfo.css';
 import './RSVP.css';
 import Countdown from 'react-countdown';
+import kAndJ from '../images/KandJ_KJ-white-red.png';
 // import { useForm, ValidationError } from '@formspree/react';
 
 const MainInfo = ({ days, hours, minutes }) => {
@@ -27,7 +28,9 @@ const MainInfo = ({ days, hours, minutes }) => {
 
   return (
     <div className="mainInfo" id="home">
-      <h1 className="mainInfo__nameTitle">Katie and Jimmy</h1>
+      <div>
+        <img className="mainInfo__nameTitle" src={kAndJ} alt="name-title" />
+      </div>
       <Countdown date={new Date('2021/11/06 00:00:00')} renderer={renderer} />
       <h3 className="banner__h3">
         NOVEMBER 6, 2021 • WEAVERVILLE, NC
