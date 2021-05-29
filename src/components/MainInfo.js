@@ -2,7 +2,6 @@ import React from 'react';
 import './MainInfo.css';
 import './RSVP.css';
 import Countdown from 'react-countdown';
-import kAndJ from '../images/KandJ_KJ-white-red.png';
 // import { useForm, ValidationError } from '@formspree/react';
 
 const MainInfo = ({ days, hours, minutes }) => {
