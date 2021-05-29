@@ -29,7 +29,8 @@ const MainInfo = ({ days, hours, minutes }) => {
   return (
     <div className="mainInfo" id="home">
       <div>
-        <img className="mainInfo__nameTitle" src={kAndJ} alt="name-title" />
+        {/* <img className="mainInfo__nameTitle" src={kAndJ} alt="name-title" /> */}
+        <div className="mainInfo__nameTitle">K &J</div>
       </div>
       <Countdown date={new Date('2021/11/06 00:00:00')} renderer={renderer} />
       <h3 className="banner__h3">
