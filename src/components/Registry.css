@@ -1,6 +1,17 @@
 .registry {
   text-align: center;
 }
+.registry__icon-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.registry__icon {
+  max-width: 100px;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+}
 
 .registry > h4 {
   padding: 60px 10px 20px 10px;

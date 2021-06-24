@@ -3,7 +3,6 @@ import Image from '../images/biltmore.jpeg';
 import Image2 from '../images/brewery.jpeg';
 import Image3 from '../images/wicked-weed.jpeg';
 import Image4 from '../images/downtown-weaverville.jpeg';
-
 import './ThingsToDo.css';
 
 const ThingsToDo = () => {
@@ -39,9 +38,9 @@ const ThingsToDo = () => {
           <a href="https://curtiswrightoutfitters.com/">
             Curtis Wright Outfitters
           </a>{' '}
-          and
+          and 
           <a href="https://fivemonkeyquilts.com/">
-            Five Little Monkeys Quilt and Sew
+          {' '}Five Little Monkeys Quilt and Sew
           </a>
           .
         </p>

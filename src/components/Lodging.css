@@ -23,7 +23,7 @@
 
 .lodging > h1 {
   padding: 20px 0 20px 0;
-  font-size: 54px;
+  /* font-size: 54px; */
 }
 
 .lodging p {
@@ -31,14 +31,15 @@
 }
 
 .lodging__button {
-  /* background-color: rgb(0, 0, 0);  */
-  border: none;
-  /* color: white; */
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 17px;
+  font-size: 1.2rem;
+  padding: 10px 44px;
+  border-radius: 34px;
+  background-color: lightseagreen;
+  color: white;
+  border: 3px;
 }
 
 .lodging__button:hover {

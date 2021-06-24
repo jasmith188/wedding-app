@@ -1,11 +1,22 @@
 .thingsToDo {
   text-align: center;
-  padding: 0 10px 0 10px;
+  /* padding: 0 10px 0 10px; */
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .thingsToDo > h1 {
   padding: 20px 0 20px 0;
-  font-size: 54px;
+  /* font-size: 54px; */
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px 44px;
+  border-radius: 34px;
+  background-color: lightseagreen;
+  color: white;
+  border: 3px;
 }
 
 .thingsToDo__image {

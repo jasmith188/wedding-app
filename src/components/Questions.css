@@ -1,12 +1,28 @@
 .questions {
   text-align: center;
-  padding: 0 20px 0 20px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-
+.questions > p {
+  font-size: 1.2rem;
+  text-align: left;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: 1em;
+}
 .questions > h1 {
   padding: 20px 0 20px 0;
   font-size: 44px;
 }
-.questions .questions > h2 {
-  font-family: 'Montserrat', sans-serif;
+.questions > h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .questions {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
