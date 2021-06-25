@@ -1,33 +1,34 @@
 .ourStory > h1 {
   padding: 20px 0 40px 0;
   text-align: center;
-  font-size: 54px;
 }
 
 .ourStory p {
   padding: 0 80px 0 80px;
   font-size: 1.5rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .ourStory__carousel {
-  padding: 50px 190px 10px 190px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   /* border-spacing: 20px; */
 }
 
 .ourStory__carousel-slider {
+  display: flex;
+  height: auto;
   width: auto;
 }
 
 .ourStory__image {
   margin-left: auto;
   margin-right: auto;
-  width: auto;
+  width: 240px;
   height: auto;
-  display: block;
+  /* display: block; */
 }
 .slide .selected {
   height: 400px;
