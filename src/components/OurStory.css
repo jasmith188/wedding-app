@@ -24,6 +24,7 @@
 }
 .carousel .slider-wrapper {
   width: 45% !important;
+  min-width: ;
 }
 .ourStory__image {
   margin-left: auto;

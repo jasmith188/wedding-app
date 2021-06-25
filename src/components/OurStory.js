@@ -13,7 +13,6 @@ import Image11 from "../weddingImages/patiopic.jpeg";
 import Image12 from "../weddingImages/ringpic.jpeg";
 import Image13 from "../weddingImages/stpattys.jpeg";
 import Image14 from "../weddingImages/weddingpic.jpeg";
-import Image15 from "../images/kandj-brewers-game.JPG";
 
 import "./OurStory.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -31,14 +30,6 @@ const OurStory = () => {
         big island of O'ahu - it was forever after that.
       </p>
       <Carousel className="ourStory__carousel">
-        <div>
-          <img
-            className="ourStory__image"
-            src={Image15}
-            alt="katieandjimmypic"
-          />
-        </div>
-
         <div>
           <img
             className="ourStory__image"
