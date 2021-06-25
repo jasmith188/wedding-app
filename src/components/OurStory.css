@@ -29,13 +29,13 @@
 }
 .carousel .slider-wrapper {
   width: 35% !important;
-  min-width: 35% !important;
+  /* min-width: 35% !important; */
 }
 .ourStory__image {
   margin-left: auto;
   margin-right: auto;
-  width: 240px;
-  height: auto;
+  /* width: 240px; */
+  /* height: auto; */
   /* display: block; */
 }
 .slide .selected {
@@ -56,13 +56,17 @@
   }
 
   .ourStory__image {
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
     /* height: 300px !important; */
   }
   .ourStory__carousel {
     padding: 50px 60px 40px 60px;
+  }
+  .carousel .slider-wrapper {
+    width: 75% !important;
+    /* min-width: 35% !important; */
   }
 }
 
