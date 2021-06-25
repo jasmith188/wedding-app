@@ -1,13 +1,13 @@
 import React from "react";
-// import Image1 from "../weddingImages/couple-smile.jpeg";
+import Image1 from "../weddingImages/couple-smile.jpeg";
 import Image2 from "../weddingImages/30bday.jpeg";
-// import Image3 from '../weddingImages/beachpic.jpeg';
+import Image3 from "../images/kandj-biltmore.JPG";
 import Image4 from "../weddingImages/boatpic.jpeg";
 // import Image5 from '../weddingImages/cubshat.jpeg';
-// import Image6 from "../weddingImages/coldpic.jpeg";
-// import Image7 from "../weddingImages/formalpic.jpeg";
-// import Image8 from "../weddingImages/formalpic2.jpeg";
-// import Image9 from "../weddingImages/newglarus.jpeg";
+import Image6 from "../weddingImages/coldpic.jpeg";
+import Image7 from "../weddingImages/formalpic.jpeg";
+import Image8 from "../weddingImages/formalpic2.jpeg";
+import Image9 from "../weddingImages/newglarus.jpeg";
 import Image10 from "../weddingImages/packergame.jpeg";
 import Image11 from "../weddingImages/patiopic.jpeg";
 import Image12 from "../weddingImages/ringpic.jpeg";
@@ -30,45 +30,53 @@ const OurStory = () => {
         big island of O'ahu - it was forever after that.
       </p>
       <Carousel className="ourStory__carousel">
-        {/* <div>
+        <div>
+          <img
+            className="ourStory__image"
+            src={Image3}
+            alt="katieandjimmypic"
+          />
+        </div>
+
+        <div>
           <img
             className="ourStory__image"
             src={Image7}
             alt="katieandjimmypic"
           />
-        </div> */}
+        </div>
 
-        {/* <div>
+        <div>
           <img
             className="ourStory__image"
             src={Image9}
             alt="katieandjimmypic"
           />
-        </div> */}
+        </div>
 
-        {/* <div>
+        <div>
           <img
             className="ourStory__image"
             src={Image8}
             alt="katieandjimmypic"
           />
-        </div> */}
+        </div>
 
-        {/* <div>
+        <div>
           <img
             className="ourStory__image"
             src={Image6}
             alt="katieandjimmypic"
           />
-        </div> */}
+        </div>
 
-        {/* <div>
+        <div>
           <img
             className="ourStory__image"
             src={Image1}
             alt="katieandjimmypic"
           />
-        </div> */}
+        </div>
 
         <div>
           <img
