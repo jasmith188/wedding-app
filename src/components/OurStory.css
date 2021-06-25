@@ -17,14 +17,19 @@
   /* border-spacing: 20px; */
 }
 
+.carousel .thumbs-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .ourStory__carousel-slider {
   display: flex;
   height: auto;
   width: auto;
 }
 .carousel .slider-wrapper {
-  width: 45% !important;
-  min-width: ;
+  width: 35% !important;
+  min-width: 35% !important;
 }
 .ourStory__image {
   margin-left: auto;
