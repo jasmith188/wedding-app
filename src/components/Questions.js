@@ -28,9 +28,13 @@ const Questions = () => {
         </strong>
       </h3>
       <p>
-        There are a few options: 1. Asheville (AVL) - 11 miles from downtown 2.
-        Greenville/Spartanburg (GSP) - 53 miles from downtown 3. Knoxville (TYS)
-        - 82 miles from downtown 4. Charlotte (CLT) - 95 miles from downtown
+        <ol>
+          <h4>There are a few options:</h4>
+          <li>Asheville (AVL) - 11 miles from downtown</li>
+          <li>Charlotte (CLT) - 95 miles from downtown</li>
+          <li>Greenville/Spartanburg (GSP) - 53 miles from downtown</li>
+          <li>Knoxville (TYS) - 82 miles from downtown</li>
+        </ol>
       </p>
       <br />
       <h3>

@@ -7,8 +7,12 @@ import bbb from "../images/bbb-icon.jpeg";
 const Registry = () => {
   return (
     <div className="registry">
-      <h2 className="registry__title">Registry</h2>
+      <h1 className="registry__title">Registry</h1>
+
       <h3>Katie and Jimmy are registered at the three stores below:</h3>
+      <p>
+        <em>Click on one of the logos</em>
+      </p>
       <div className="registry__icon-section">
         <div>
           <a href="https://www.amazon.com/wedding/share/katieandjimmy611">
