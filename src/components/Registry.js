@@ -24,7 +24,7 @@ const Registry = () => {
           </a>
         </div>
         <div>
-          <a href="tgt.gifts/katieandjimmy611">
+          <a href="https://www.target.com/gift-registry/giftgiver?registryId=4a6f6cf063de49c3aa5b52d32471de24&type=WEDDING&ref=reg_home_friends_fam">
             <img
               className="registry__icon"
               src={target}
