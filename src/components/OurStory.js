@@ -25,9 +25,13 @@ const OurStory = () => {
         <strong>Our Story</strong>
       </h1>
       <p>
-        Jimmy and Katie met in 2013 while working aboard the Pride of America in
-        Hawai'i. Their first date was in 2015 snorkeling at Hanuma Bay on the
-        big island of O'ahu - it was forever after that.
+        Katie, a small town girl from Wisconsin and Jimmy, a bearded chef from
+        North Carolina, met in 2013 in Hawai'i while working aboard the
+        Norwegian Pride of America cruise ship. They worked in the same galley
+        and were also on the same fire team where they became friends. In 2015,
+        Katie and Jimmy went on their first date snorkeling at Hanauma Bay on
+        the island of Oahu. May it be the Hawai'ian sun, the salt water or sting
+        of the sea urchin - it was forever after that.
       </p>
       <Carousel className="ourStory__carousel">
         <div>
