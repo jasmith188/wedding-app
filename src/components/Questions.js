@@ -9,10 +9,9 @@ const Questions = () => {
       </h1>
       <h3>
         <strong>
-          <u>WHAT ABOUT COVID?</u>
+          <u>WHAT DO I NEED TO KNOW ABOUT THE VENUE AND COVID-19?</u>
         </strong>
       </h3>
-
       <p>
         Emerald Ridge Farm is a 33 acre property that we have for the entire
         weekend. There is plenty of space to spread out and the buildings are
@@ -20,6 +19,49 @@ const Questions = () => {
         are all fully vaccinated and take the proper measures to deep clean the
         property before and after each event. We would love for you to join in
         celebrating, but understand if there are reservations.
+      </p>
+      <br />
+      <h3>
+        <strong>
+          <u>ARE THERE ANY RULES FOR THE VENUE I NEED TO KNOW ABOUT?</u>
+        </strong>
+      </h3>
+      <p>
+        <ol>
+          <li>
+            There are only 50 parking spots - please carpool or utilize
+            Uber/Lyft services
+          </li>
+          <li>
+            The venue is an active farm - please do not approach or touch
+            animals on or boarding the property. There are also live electric
+            fences - please be careful or get a shock! ⚡️
+          </li>
+          <li>
+            There is a house on the property - we kindly ask you do not go up to
+            the house at the top of the hill once we have moved down to the barn
+            for the reception
+          </li>
+          <li>
+            We do not have a license for liquor - please do not bring it onto
+            the property as we will be fined (No shots! Beer and Wine only!!!
+            🍺+🍷)
+          </li>
+        </ol>
+      </p>
+      <br />
+      <h3>
+        <strong>
+          <u>WHAT IS THE ATTIRE?</u>
+        </strong>
+      </h3>
+      <p>
+        Semi-formal - as it is November in the mountains, please bring something
+        or dress to keep warm as the temperatures may be cooler than expected.
+        As you know, Jimmy gets cold easily and he's made sure that there will
+        be outdoor gas heaters to keep everyone warm and comfortable during the
+        reception. Unfortunately, we will not have heaters set up during the
+        ceremony so blankets are encouraged!
       </p>
       <br />
       <h3>
@@ -37,26 +79,6 @@ const Questions = () => {
         </ol>
       </p>
       <br />
-      <h3>
-        <strong>
-          <u>WHAT IS THE ATTIRE?</u>
-        </strong>
-      </h3>
-      <p>
-        Semi-formal - suggested to bring a light jacket or sweater as the
-        temperature may drop at night.
-      </p>
-      <br />
-      <h3>
-        <strong>
-          <u>IS THERE PARKING AT THE VENUE?</u>
-        </strong>
-      </h3>
-      <p>
-        Yes! There is parking for up to 50 vehicles at the venue. Uber and Lyft
-        reach the area, so we suggest either utilizing one of those services or
-        car pooling to ensure we have enough space for everyone.
-      </p>
     </div>
   );
 };
