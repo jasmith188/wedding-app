@@ -35,15 +35,8 @@ const ThingsToDo = () => {
           addition to Main Street, we also recommend a few detours off the main
           drag such as Merchants Alley, Merrimon Avenue and Florida Avenue. Two
           of our favorite shops in Weaverville are{" "}
-          <a href="https://curtiswrightoutfitters.com/">
-            Curtis Wright Outfitters
-          </a>{" "}
-          and
-          <a href="https://fivemonkeyquilts.com/">
-            {" "}
-            Five Little Monkeys Quilt and Sew
-          </a>
-          .
+          <a href="http://eluviumbrewing.com/">Eluvium Brewing Co.</a> and
+          <a href="https://www.wellbredbakery.com/"> Well Bred Bakery</a>.
         </p>
         <br />
         <a href="https://weavervillenc.org/working/why-weaverville/main-street-weaverville/">
