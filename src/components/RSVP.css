@@ -1,7 +1,6 @@
 .rsvp {
   background-color: #bdc3c7;
-  padding-bottom: 300px;
-  /* font-family: 'Raleway'; */
+  padding-bottom: 200px;
 }
 
 .rsvp__topFormh1 {
@@ -108,11 +107,6 @@ button.accept {
 button.regret {
   border-radius: 0px 0px 10px 0px;
 }
-
-/* button:hover {
-  background-color: #cc919a;
-  transition: 0.5s;
-} */
 
 button:focus {
   outline: 0;

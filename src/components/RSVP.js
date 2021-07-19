@@ -1,9 +1,9 @@
-import React from 'react';
-import './RSVP.css';
-import { useForm, ValidationError } from '@formspree/react';
+import React from "react";
+import "./RSVP.css";
+import { useForm, ValidationError } from "@formspree/react";
 
 const RSVP = () => {
-  const [state, handleSubmit] = useForm('mwkapeze');
+  const [state, handleSubmit] = useForm("mwkapeze");
   if (state.succeeded) {
     return <p>Thanks for your RSVP! We can't wait to see you there!</p>;
   }
@@ -32,6 +32,8 @@ const RSVP = () => {
         <label className="rsvp__label" type="number" name="number" required>
           <pre>Number of Guest(s): </pre>
           <select name="Number of Guests" id="guests">
+            <option value="1">0</option>
+
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
