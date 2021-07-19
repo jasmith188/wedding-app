@@ -34,7 +34,7 @@ const ThingsToDo = () => {
           you’re able, we think walking is the best way to explore the town. In
           addition to Main Street, we also recommend a few detours off the main
           drag such as Merchants Alley, Merrimon Avenue and Florida Avenue. Two
-          of our favorite shops in Weaverville are{" "}
+          of our favorite stops in Weaverville are{" "}
           <a href="http://eluviumbrewing.com/">Eluvium Brewing Co.</a> and
           <a href="https://www.wellbredbakery.com/"> Well Bred Bakery</a>.
         </p>
@@ -99,16 +99,13 @@ const ThingsToDo = () => {
           className="thingsToDo__image"
         />
 
-        <h1>WICKED WEED BREWING PUB</h1>
+        <h1>GREEN MAN BREWERY</h1>
         <br />
-        <h3>91 BILTOMORE AVE, ASHEVILLE, NC 28801, USA (828) 575-9599</h3>
-        <p>
-          What a great place! (even though it got bought out by the big guys...)
-          Another one of Jimmy's favorite breweries!
-        </p>
+        <h3>27 Buxton Ave, Asheville, NC 28801, USA (828) 575-9599</h3>
+        <p>What a great place! Another one of Jimmy's favorite breweries!</p>
         <br />
-        <a href="https://www.instagram.com/wickedweedbrewing/?hl=en">
-          <button>Link to Instagram Page</button>
+        <a href="https://www.greenmanbrewery.com/">
+          <button>Link to Web Page</button>
         </a>
       </div>
     </div>
