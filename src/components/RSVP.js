@@ -33,7 +33,6 @@ const RSVP = () => {
           <pre>Number of Guest(s): </pre>
           <select name="Number of Guests" id="guests">
             <option value="1">0</option>
-
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>

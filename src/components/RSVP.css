@@ -38,6 +38,7 @@ p {
   text-align: center;
   padding: 0px;
   margin: 5px 5px;
+  padding-bottom: 0 !important;
 }
 
 h2 {
