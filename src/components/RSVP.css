@@ -15,7 +15,7 @@
 }
 
 .form {
-  height: 1040px;
+  height: 850px;
   width: 440px;
   background-color: #fff;
   margin: -110px;
@@ -63,7 +63,7 @@ p.line {
 .rsvp__label {
   display: flex;
   color: black;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   font-size: 16px;
   /* padding-right: 6px; */
   padding-left: 18px;
@@ -83,10 +83,10 @@ input:focus {
 }
 
 .button {
-  color: rgb(0, 0, 0);
-  background-color: #ffbdc7;
+  color: white;
+  background-color: #264356;
   border: solid 1px;
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
   font-size: 18px;
   font-weight: 600;
   padding: 15px 32px;
