@@ -128,7 +128,7 @@ button:focus {
 
 @media only screen and (max-width: 380px) {
   .form {
-    height: 1110px;
+    height: 850px;
     width: 340px;
   }
 
