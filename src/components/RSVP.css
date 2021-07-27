@@ -81,7 +81,9 @@ input:focus {
   display: inline-block;
   width: 400px;
 }
-
+#message {
+  width: 70%;
+}
 .button {
   color: white;
   background-color: #264356;

@@ -50,6 +50,7 @@
 
 .row {
   display: flex;
+  padding-bottom: 5rem;
 }
 
 /* Create two equal columns that sits next to each other */

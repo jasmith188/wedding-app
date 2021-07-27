@@ -91,7 +91,7 @@ const ThingsToDo = () => {
           <button>Link to Website</button>
         </a>
       </div>
-      <div>
+      <div className="thingsToDo__bottom">
         <img
           variant="top"
           src={Image3}

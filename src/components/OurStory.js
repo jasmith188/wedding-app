@@ -24,7 +24,7 @@ const OurStory = () => {
       <h1>
         <strong>Our Story</strong>
       </h1>
-      <p>
+      <p className="ourStory__paragraph">
         Katie, a small town girl from Wisconsin and Jimmy, a bearded chef from
         North Carolina, met in 2013 in Hawai'i while working aboard the
         Norwegian Pride of America cruise ship. They worked in the same galley
