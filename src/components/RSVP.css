@@ -137,4 +137,7 @@ button:focus {
   button {
     margin-bottom: 10px;
   }
+  #message {
+    width: 60%;
+  }
 }
