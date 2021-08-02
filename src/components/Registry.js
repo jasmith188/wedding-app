@@ -1,8 +1,8 @@
 import React from "react";
 import "./Registry.css";
 import amazon from "../images/amazon-icon.png";
-import target from "../images/target-icon.png";
-import bbb from "../images/bbb-icon.jpeg";
+// import target from "../images/target-icon.png";
+// import bbb from "../images/bbb-icon.jpeg";
 
 const Registry = () => {
   return (
@@ -23,7 +23,7 @@ const Registry = () => {
             />
           </a>
         </div>
-        <div>
+        {/* <div>
           <a href="https://www.target.com/gift-registry/giftgiver?registryId=4a6f6cf063de49c3aa5b52d32471de24&type=WEDDING&ref=reg_home_friends_fam">
             <img
               className="registry__icon"
@@ -31,12 +31,12 @@ const Registry = () => {
               alt="target-registry"
             />
           </a>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <a href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/550238932?eventType=Wedding">
             <img className="registry__icon" src={bbb} alt="bbb-registry" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
