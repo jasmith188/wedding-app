@@ -1,15 +1,20 @@
 .mainInfo {
   text-align: center;
   color: white;
-  background-image: url('../images/smokey-mountain-backdrop.jpeg');
+  background-image: url("../images/smoky-mountain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+.mainInfo__map {
+  color: white;
+  font-size: 1.5rem;
+}
+
 .mainInfo__nameTitle {
   /* color: black !important; */
   height: 150px;
   font-size: 80px;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   padding-top: 210px;
   color: white !important;
   margin-top: 0;
@@ -22,7 +27,7 @@
 
 .mainInfo > p {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   /* padding: 5px 0 50px 0; */
   margin-bottom: 0px;
   padding-bottom: 1.5rem;
@@ -30,7 +35,7 @@
 
 .mainInfo__initials {
   padding-top: 60px;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 4rem;
 }
 
@@ -39,7 +44,7 @@
 }
 .banner__h3 {
   padding-top: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -72,6 +77,9 @@ hr {
 /* mobile narrow */
 
 @media only screen and (max-width: 420px) {
+  .mainInfo__map {
+    font-size: 1.1rem;
+  }
   p {
     padding-top: 40px;
   }

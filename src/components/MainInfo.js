@@ -1,7 +1,7 @@
-import React from 'react';
-import './MainInfo.css';
-import './RSVP.css';
-import Countdown from 'react-countdown';
+import React from "react";
+import "./MainInfo.css";
+import "./RSVP.css";
+import Countdown from "react-countdown";
 // import { useForm, ValidationError } from '@formspree/react';
 
 const MainInfo = ({ days, hours, minutes }) => {
@@ -13,7 +13,7 @@ const MainInfo = ({ days, hours, minutes }) => {
   const renderer = ({ days, completed }) => {
     if (completed) {
       // Render a completed state
-      return 'Todays the big day!!!';
+      return "Todays the big day!!!";
     } else {
       // Render a countdown
       return (
@@ -31,20 +31,30 @@ const MainInfo = ({ days, hours, minutes }) => {
         {/* <img className="mainInfo__nameTitle" src={kAndJ} alt="name-title" /> */}
         <div className="mainInfo__nameTitle">K &J</div>
       </div>
-      <Countdown date={new Date('2021/11/06 00:00:00')} renderer={renderer} />
+      <Countdown date={new Date("2021/11/06 00:00:00")} renderer={renderer} />
       <h3 className="banner__h3">
         NOVEMBER 6, 2021 • WEAVERVILLE, NC
         {/* {description} */}
       </h3>
-      {/* <ul className="social">
-            <a href="tel:715-219-3199">Katie's Cell</a>
-            <br />
-            <a href="tel:704-909-8461">Jimmy's Cell</a>
-          </ul> */}
       <p>
-        <strong>Emerald Ridge Farm</strong>
+        <div>
+          <a href="https://www.emeraldridgenc.com/" title="Emerald Ridge Farm">
+            <strong className="mainInfo__map">
+              <u>Emerald Ridge Farm</u>
+            </strong>
+          </a>
+        </div>
         <br />
-        <strong>161 Green Ridge Road, Weaverville, NC, 28787</strong>
+        <div>
+          <a
+            href="https://showtheway.io/to/35.726865,-82.586953?name=161%20Greenridge%20Rd"
+            title="Show the Way to 161 Greenridge Rd with your favorite navigation application"
+          >
+            <strong className="mainInfo__map">
+              <u>161 Green Ridge Road, Weaverville, NC, 28787</u>
+            </strong>
+          </a>
+        </div>
         <br />
         <br />
         <strong>
