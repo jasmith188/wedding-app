@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div to="/" onClick={closeMobileMenu}>
+        <Link to="/" onClick={closeMobileMenu}>
           <img
             className="navbar-logo"
             src={logo}
@@ -22,7 +22,7 @@ const Navbar = () => {
             height="49px"
           />
           {/* <i class="fab fa-firstdraft" /> */}
-        </div>
+        </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
