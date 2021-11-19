@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logo from '../images/KandJ_KJ-black-red.png';
-// import Dropdown from './Dropdown';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
