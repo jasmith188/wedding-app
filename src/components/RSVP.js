@@ -1,9 +1,9 @@
-import React from "react";
-import "./RSVP.css";
-import { useForm, ValidationError } from "@formspree/react";
+import React from 'react';
+import './RSVP.css';
+import { useForm, ValidationError } from '@formspree/react';
 
 const RSVP = () => {
-  const [state, handleSubmit] = useForm("mwkapeze");
+  const [state, handleSubmit] = useForm('mwkapeze');
   if (state.succeeded) {
     return <p>Thanks for your RSVP! We can't wait to see you there!</p>;
   }
@@ -13,10 +13,10 @@ const RSVP = () => {
       <form className="form" onSubmit={handleSubmit}>
         <h1 className="rsvp__topFormh1">RSVP</h1>
         <h2>for the wedding of</h2>
-        <h1>Katie & Jimmy</h1>
+        <h1>Lauren & Richard</h1>
         <p className="line">________________________________________</p>
         <h2>The Details</h2>
-        <p>Saturday, November 6, 2021</p>
+        <p>Saturday, June 20, 2022</p>
         <p>3:30 PM</p>
         <br />
         <h2>Ceremony & Reception</h2>

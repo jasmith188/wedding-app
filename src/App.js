@@ -10,7 +10,6 @@ import ThingsToDo from './components/ThingsToDo';
 import WeddingParty from './components/WeddingParty';
 import Questions from './components/Questions';
 import Navbar from './components/Navbar';
-import Registry from './components/Registry';
 
 const App = () => {
   return (
@@ -25,7 +24,6 @@ const App = () => {
           <Route path="/thingstodo" exact component={ThingsToDo} />
           <Route path="/weddingparty" exact component={WeddingParty} />
           <Route path="/questions" exact component={Questions} />
-          <Route path="/registry" exact component={Registry} />
         </Switch>
         <Footer />
       </Router>

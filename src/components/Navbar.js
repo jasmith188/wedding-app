@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "./Navbar.css";
-import logo from "../images/KandJ_KJ-black-red.png";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+import logo from '../images/KandJ_KJ-black-red.png';
 // import Dropdown from './Dropdown';
 
 const Navbar = () => {
@@ -15,18 +15,13 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <Link to="/" onClick={closeMobileMenu}>
-          <img
-            className="navbar-logo"
-            src={logo}
-            alt="title-logo"
-            height="49px"
-          />
+          LOGO HERE
           {/* <i class="fab fa-firstdraft" /> */}
         </Link>
         <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
             <Link to="/rsvp" className="nav-links" onClick={closeMobileMenu}>
               rsvp
@@ -71,15 +66,6 @@ const Navbar = () => {
               onClick={closeMobileMenu}
             >
               q + a
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/registry"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              registry
             </Link>
           </li>
         </ul>

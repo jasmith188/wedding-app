@@ -1,8 +1,8 @@
-import React from "react";
-import "./Lodging.css";
-import Image from "../images/hotel.jpeg";
-import airBnB from "../images/airbnb.jpeg";
-import vRbo from "../images/vrbo.jpeg";
+import React from 'react';
+import './Lodging.css';
+import Image from '../images/hotel.jpeg';
+import airBnB from '../images/airbnb.jpeg';
+import vRbo from '../images/vrbo.jpeg';
 
 const Lodging = () => {
   return (
@@ -23,12 +23,12 @@ const Lodging = () => {
       <div>
         <img variant="top" src={Image} alt="hotel" className="lodging__image" />
         <h3>
-          25 FAIRFIELD APPROACH DR, WEAVERVILLE, NC 28787, USA{" "}
+          25 FAIRFIELD APPROACH DR, WEAVERVILLE, NC 28787, USA{' '}
           <a href="tel:828-645-9000">(828) 645-9000</a>
         </h3>
 
         <p>
-          <strong>Check-In</strong>: Friday, November 5, 2021 |{" "}
+          <strong>Check-In</strong>: Friday, November 5, 2021 |{' '}
           <strong>Check-Out</strong>: Sunday, November 7, 2021
         </p>
         <p>
@@ -41,7 +41,7 @@ const Lodging = () => {
         <p>
           <strong>- must book room by 10/5</strong>
         </p>
-        <p>👇 Katie and Jimmy's Hotel Block 👇</p>
+        <p>👇 Lauren and Richard's Hotel Block 👇</p>
         <a
           href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1617900603438&key=GRP&app=resvlink"
           target="_new"

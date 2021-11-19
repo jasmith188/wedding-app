@@ -1,9 +1,9 @@
-import React from "react";
-import Image from "../images/biltmore.jpeg";
-import Image2 from "../images/brewery.jpeg";
-import Image3 from "../images/wicked-weed.jpeg";
-import Image4 from "../images/downtown-weaverville.jpeg";
-import "./ThingsToDo.css";
+import React from 'react';
+import Image from '../images/biltmore.jpeg';
+import Image2 from '../images/brewery.jpeg';
+import Image3 from '../images/wicked-weed.jpeg';
+import Image4 from '../images/downtown-weaverville.jpeg';
+import './ThingsToDo.css';
 
 const ThingsToDo = () => {
   return (
@@ -22,7 +22,7 @@ const ThingsToDo = () => {
         <h1>DOWNTOWN WEAVERVILLE</h1>
         <br />
         <h3>
-          N MAIN ST, WEAVERVILLE, NC 28787 USA{" "}
+          N MAIN ST, WEAVERVILLE, NC 28787 USA{' '}
           {/* <a href="tel:800-411-3812">(800) 411-3812</a> */}
         </h3>
         <p>
@@ -34,7 +34,7 @@ const ThingsToDo = () => {
           you’re able, we think walking is the best way to explore the town. In
           addition to Main Street, we also recommend a few detours off the main
           drag such as Merchants Alley, Merrimon Avenue and Florida Avenue. Two
-          of our favorite stops in Weaverville are{" "}
+          of our favorite stops in Weaverville are{' '}
           <a href="http://eluviumbrewing.com/">Eluvium Brewing Co.</a> and
           <a href="https://www.wellbredbakery.com/"> Well Bred Bakery</a>.
         </p>
@@ -55,7 +55,7 @@ const ThingsToDo = () => {
         <h1>BILTMORE</h1>
         <br />
         <h3>
-          1 LODGE ST, ASHEVILLE, NC 28803, USA{" "}
+          1 LODGE ST, ASHEVILLE, NC 28803, USA{' '}
           <a href="tel:800-411-3812">(800) 411-3812</a>
         </h3>
         <p>
@@ -83,7 +83,7 @@ const ThingsToDo = () => {
           12 OLD CHARLOTTE HWY #200, ASHEVILLE, NC 28803, USA (828) 299-3370
         </h3>
         <p>
-          One of Jimmy's favorite beers is brewed here! - Cold Mountain Winter
+          One of Richard's favorite beers is brewed here! - Cold Mountain Winter
           Ale (seasonal) - Also try their Gaelic Ale!
         </p>
         <br />
@@ -102,7 +102,7 @@ const ThingsToDo = () => {
         <h1>GREEN MAN BREWERY</h1>
         <br />
         <h3>27 Buxton Ave, Asheville, NC 28801, USA (828) 575-9599</h3>
-        <p>What a great place! Another one of Jimmy's favorite breweries!</p>
+        <p>What a great place! Another one of Richard's favorite breweries!</p>
         <br />
         <a href="https://www.greenmanbrewery.com/">
           <button>Link to Web Page</button>

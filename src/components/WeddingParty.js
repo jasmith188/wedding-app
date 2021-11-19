@@ -1,15 +1,8 @@
 import React from 'react';
 import './WeddingParty.css';
-import jenPic from '../weddingImages/jen.jpg';
-import lizPic from '../weddingImages/liz.jpg';
-import sirayaPic from '../weddingImages/siraya.jpg';
-import baileyPic from '../weddingImages/bailey.jpg';
-import reneePic from '../weddingImages/renee.jpeg';
-import bridgetPic from '../weddingImages/bridget.jpeg';
-import justinPic from '../weddingImages/justin.jpg';
-import nickPic from '../weddingImages/nick.jpg';
-import mikePic from '../weddingImages/mike.jpg';
-import gabePic from '../weddingImages/gabe.jpg';
+
+import maleAvatar from '../images/male-avatar.jpg';
+import femaleAvatar from '../images/female-avatar.png';
 
 const WeddingParty = () => {
   return (
@@ -24,18 +17,20 @@ const WeddingParty = () => {
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={jenPic}
+                src={femaleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
               <h1 className="weddingParty__name">
-                Jennifer Garrett - Maid of Honor
+                Rose Castaneda - Maid of Honor
               </h1>
 
               <p>
-                Jennifer and Katie met in Chicago while working at Mars in 2017.
-                As her best friend, it was only fitting to have Jennifer stand
-                up next to Katie as her Maid of Honor.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab
+                repellendus saepe maiores ad consectetur commodi molestiae
+                debitis maxime perferendis, accusantium, aspernatur nostrum.
+                Tempora distinctio facilis rem perferendis placeat, ducimus
+                exercitationem.
               </p>
             </div>
           </div>
@@ -43,19 +38,17 @@ const WeddingParty = () => {
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={sirayaPic}
+                src={femaleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
-              <h1 className="weddingParty__name">
-                Siraya Schleis - Bridesmaid
-              </h1>
+              <h1 className="weddingParty__name">Julie Spence - Bridesmaid</h1>
 
               <p>
-                Siraya is the brides sister and Katie wanted nothing more than
-                to have her by her side when she marries Jimmy. Siraya worked on
-                the cruise ship with Jimmy and Katie – so she has been there
-                since the very beginning!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                in impedit totam quas inventore. Facere libero harum impedit
+                ratione officiis sit voluptates a consequatur placeat molestiae,
+                delectus explicabo provident nisi.
               </p>
             </div>
           </div>
@@ -64,35 +57,34 @@ const WeddingParty = () => {
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={lizPic}
+                src={femaleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
-              <h1 className="weddingParty__name">
-                Liz Jasurda-Love – Bridesmaid
-              </h1>
+              <h1 className="weddingParty__name">Joyce Forbes – Bridesmaid</h1>
               <br />
               <p>
-                Liz (a kindred heart from Wisconsin) met Katie and Jimmy while
-                working on the cruise ship in Hawai’i in 2013. Having her with
-                us to share the day was an easy choice.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                aperiam vitae fuga non, id sequi veritatis pariatur obcaecati
+                voluptates magni ab est ex, voluptate voluptatum quas maxime
+                doloremque omnis. Non.
               </p>
             </div>
           </div>
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={baileyPic}
+                src={femaleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
-              <h1 className="weddingParty__name">Bailey Smith – Bridesmaid</h1>
+              <h1 className="weddingParty__name">Octavia Huynh – Bridesmaid</h1>
               <br />
               <p>
-                Bailey and Katie met in Chicago in 2019, only a couple months
-                before Katie and Jimmy moved to Florida. She quickly became a
-                close friend (and cherished cousin 😉) and there was no question
-                to have her a part of the day.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                exercitationem quia enim maiores nesciunt, maxime minima
+                molestias? Labore expedita dicta quae excepturi quo optio
+                provident nostrum assumenda. Consequatur, magni in.
               </p>
             </div>
           </div>
@@ -102,34 +94,35 @@ const WeddingParty = () => {
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={reneePic}
+                src={femaleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
-              <h1 className="weddingParty__name">Renee DuBois – Attendant</h1>
+              <h1 className="weddingParty__name">Giulia Bowes – Attendant</h1>
               <br />
               <p>
-                Renee and Katie met in Florida after matching on the Bumble BFF
-                app in 2019! Their ‘first date’ was a success and they have been
-                awesome friends ever since.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Perferendis, quas. Consectetur aliquid eligendi quibusdam
+                repudiandae ratione velit, molestias ullam, accusamus quas,
+                veritatis harum commodi natus enim? Sint consequatur eaque
+                ipsam!
               </p>
             </div>
           </div>
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={bridgetPic}
+                src={femaleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
-              <h1 className="weddingParty__name">
-                Bridget Crawford – Attendant
-              </h1>
+              <h1 className="weddingParty__name">Caitlan Mccann – Attendant</h1>
               <br />
               <p>
-                Bridget and Katie met in Florida via the Bumble BFF app in 2019
-                – their ‘first date’ was a wine walk which solidified their
-                wonderful friendship!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus nihil, esse debitis pariatur corrupti cumque. Quas
+                maxime incidunt adipisci delectus, ratione odio voluptas
+                laudantium fugiat repudiandae magni nisi perferendis. Et?
               </p>
             </div>
           </div>
@@ -144,30 +137,34 @@ const WeddingParty = () => {
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={justinPic}
+                src={maleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
-              <h1 className="weddingParty__name">Justin Merod - Best Man</h1>
+              <h1 className="weddingParty__name">Patrik Rubio - Best Man</h1>
               <br />
               <p>
-                Justin is the groom’s cousin and Jimmy couldn’t have asked for a
-                better man to stand next to him on his wedding day.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur, vero blanditiis. Exercitationem error, ab quod eos
+                laboriosam quidem nobis esse maxime et. Dicta voluptate sunt
+                quos neque nam mollitia officia.
               </p>
             </div>
           </div>
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={mikePic}
+                src={maleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
-              <h1 className="weddingParty__name">Mike Dubois - Groomsman</h1>
+              <h1 className="weddingParty__name">Issac Lowry - Groomsman</h1>
               <br />
               <p>
-                Mike is a friend of the groom. They go way back. Jimmy knew Mike
-                would be there to support him on his big day.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                necessitatibus quod similique vero perspiciatis, iusto suscipit
+                sapiente? Dolor aperiam quia labore, magni eligendi consequuntur
+                quod, delectus quo qui asperiores deserunt?
               </p>
             </div>
           </div>
@@ -177,31 +174,34 @@ const WeddingParty = () => {
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={nickPic}
+                src={maleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
-              <h1 className="weddingParty__name">Nick Schubert - Groomsman</h1>
+              <h1 className="weddingParty__name">Josh Wallis - Groomsman</h1>
               <br />
               <p>
-                Nick is the brother of the groom. Jimmy knew he’d want his only
-                brother to be there with him when he says I Do.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                enim, quae totam nobis esse recusandae! Neque nobis praesentium
+                exercitationem id explicabo voluptatibus error debitis commodi
+                corporis, doloribus numquam repellendus earum?
               </p>
             </div>
           </div>
           <div className="column">
             <div className="weddingParty__card">
               <img
-                src={gabePic}
+                src={maleAvatar}
                 alt="girl emoji"
                 className="weddingParty__image"
               />
-              <h1 className="weddingParty__name">Gabe Shuman - Groomsman</h1>
+              <h1 className="weddingParty__name">Jarrod Carter - Groomsman</h1>
               <br />
               <p>
-                Gabe is a friend of the groom – the choice was easy to have Gabe
-                standing with Jimmy during his wedding. He was his his first
-                friend he met when he moved to North Carolina.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dolorum dolor a, voluptatem tenetur cum, earum minus doloremque
+                fugit, fugiat asperiores facilis eveniet rem corporis!
+                Recusandae incidunt veritatis tempora aliquam aspernatur.
               </p>
             </div>
           </div>
