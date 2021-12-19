@@ -6,7 +6,7 @@ const MainInfo = () => {
   return (
     <div className="mainInfo" id="home">
       <div>
-        <div className="mainInfo__nameTitle">L & R</div>
+        <div className="mainInfo__nameTitle">L & S</div>
       </div>
 
       <h3 className="banner__h3">June 20, 2022 • Weaverville, NC</h3>
